@@ -116,7 +116,7 @@ add_action( 'widgets_init', 'appocalyptic_widgets_init' );
 /**
  * Enqueue scripts and styles.
  */
-function appocalyptic_scripts() {
+function appocalyptic_scripts() {  
 	wp_enqueue_style( 'appocalyptic-style', get_stylesheet_uri()  );
 	wp_enqueue_style( 'danut', get_template_directory_uri() . '/css/danut.css' );
 	wp_enqueue_style( 'alex', get_template_directory_uri() . '/css/alex.css' );
