@@ -8,11 +8,7 @@
 ehthumbs.db
 Thumbs.db
 bower_components/
-wp-includes/
-wp-content/uploads
-wp-login.php
-wp-cron.php
-wp-links-opml.php
-wp-load.php
-wp-mail.php
-wp-signup.php
+node_modules/
+*.sublime-project
+*.sublime-workspace
+.gitignore
