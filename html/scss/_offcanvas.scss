@@ -1,0 +1,20 @@
+html,
+body,
+.page-container { height: 100% }
+
+.off-canvas-wrapper {
+	backface-visibility: initial;
+}
+
+.page-container { display: table; width: 100%; background: #fff; table-layout: fixed; }
+
+
+.page-header,
+.page-content,
+.page-footer {
+	display: table-row;
+	height: 1px;
+}
+.page-content {
+	height: 100%;
+}

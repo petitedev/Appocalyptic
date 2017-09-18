@@ -1,0 +1,40 @@
+.navigation {
+
+  padding-top: 33px ;
+  padding-bottom: 10px;
+
+  ul {
+    li {
+      a {
+        position:relative;
+        color:$black;
+        display:block;
+        margin-top:3px;
+
+        &:after {
+          float: right;
+          content: "";
+          width:1px;
+          height:21px;
+          margin-left:15px;
+          pointer-events:none;
+          background: $black;
+          top:8px;
+          position: absolute;
+          right:0;
+        }
+      }
+      &:last-child {
+        a {
+          &:after {
+            display:none;
+          }
+        }
+      }
+    }
+  }
+
+  @include breakpoint(smallMedium down) {
+    padding: 25px 25px 10px 0;
+  }
+}
