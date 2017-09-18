@@ -1,0 +1,1241 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get_the_tag",
+				"get_the_tags\tWP Filter Name"
+			],
+			[
+				"foo",
+				"footerInfo"
+			],
+			[
+				"the_post_thumb",
+				"the_post_thumbnail_url\tWP Function"
+			],
+			[
+				"the_pos",
+				"the_post_thumbnail\tWP Function"
+			],
+			[
+				"setupa",
+				"setup_postdata\tWP Function"
+			],
+			[
+				"backgroud",
+				"background-image"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"data",
+				"dataArray"
+			],
+			[
+				"day",
+				"dayToNr"
+			],
+			[
+				"yea",
+				"yearToNr"
+			],
+			[
+				"de",
+				"delDocs"
+			],
+			[
+				"del",
+				"delDist"
+			],
+			[
+				"imag",
+				"imagemin"
+			],
+			[
+				"spr",
+				"sprites"
+			],
+			[
+				"laz",
+				"lazyImages"
+			],
+			[
+				"layz",
+				"lazyimages"
+			],
+			[
+				"matc",
+				"matchHeaderLinkedit"
+			],
+			[
+				"add",
+				"addSmoothscroll"
+			],
+			[
+				"close",
+				"closeModal"
+			],
+			[
+				"open",
+				"openModal"
+			],
+			[
+				"way",
+				"Waypoint"
+			],
+			[
+				"page",
+				"pageSections"
+			],
+			[
+				"our",
+				"our-beginning"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"sit",
+				"siteHeaderH1"
+			],
+			[
+				"stc",
+				"stickyHeader"
+			],
+			[
+				"rev",
+				"revealOnScroll"
+			],
+			[
+				"site-header",
+				"site-header__menu-icon"
+			],
+			[
+				"site",
+				"site-header"
+			],
+			[
+				"tog",
+				"toggleClass"
+			],
+			[
+				"togg",
+				"toggleTheMenu"
+			],
+			[
+				"ifram",
+				"iframe_contents"
+			],
+			[
+				"fav",
+				"favColor"
+			],
+			[
+				"scri",
+				"scripts"
+			],
+			[
+				"copy",
+				"copyspriteGraphic"
+			],
+			[
+				"copyspri",
+				"copyspriteGraphic"
+			],
+			[
+				"sect",
+				"section_title__icon"
+			],
+			[
+				"s",
+				"socials"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"err",
+				"errorInformation"
+			],
+			[
+				"css",
+				"cssInject"
+			],
+			[
+				"pos",
+				"postcss-nested"
+			],
+			[
+				"gul",
+				"gulp-postcss"
+			],
+			[
+				"remov",
+				"remove_Wrapper"
+			],
+			[
+				"count",
+				"counticons"
+			],
+			[
+				"img",
+				"imgActive"
+			],
+			[
+				"im",
+				"imgActive"
+			],
+			[
+				"scro",
+				"scrollTop"
+			],
+			[
+				"abo",
+				"aboutPosts"
+			],
+			[
+				"previ",
+				"previous_posts_link\tWP Function"
+			],
+			[
+				"next_po",
+				"next_posts_link\tWP Function"
+			],
+			[
+				"wp_reset_",
+				"wp_reset_query\tWP Function"
+			],
+			[
+				"get_the_aut",
+				"get_the_author_meta\tWP Function"
+			],
+			[
+				"get_the_au",
+				"get_the_author_meta\tWP Function"
+			],
+			[
+				"other",
+				"otherAuthorPosts"
+			],
+			[
+				"get_the_",
+				"get_the_author\tWP Function"
+			],
+			[
+				"starter_new_se",
+				"starter_new_setting_name"
+			],
+			[
+				"arr",
+				"array\t$… = array (…)"
+			],
+			[
+				"cat",
+				"cat_link"
+			],
+			[
+				"function",
+				"create_function"
+			],
+			[
+				"the_ti",
+				"the_title\tWP Function"
+			],
+			[
+				"the_t",
+				"the_title\tWP Function"
+			],
+			[
+				"add_them",
+				"add_theme_support\tWP Function"
+			],
+			[
+				"get_template",
+				"get_template_part\tWP Function"
+			],
+			[
+				"has_post",
+				"has_post_thumbnail\tWP Function"
+			],
+			[
+				"the_po",
+				"the_post_thumbnail\tWP Function"
+			],
+			[
+				"the",
+				"the_permalink\tWP Function"
+			],
+			[
+				"categ",
+				"categories"
+			],
+			[
+				"cate",
+				"categories"
+			],
+			[
+				"get_the",
+				"get_the_category"
+			],
+			[
+				"the_time",
+				"the_time\tWP Function"
+			],
+			[
+				"get_pos",
+				"get_post_ancestors"
+			],
+			[
+				"wp_list",
+				"wp_list_pages"
+			],
+			[
+				"register_nav_",
+				"register_nav_menus"
+			],
+			[
+				"wp_nav_menu",
+				"wp_nav_menu"
+			],
+			[
+				"get_template_directory_uri",
+				"get_template_directory_uri\tWP Function"
+			],
+			[
+				"get_tem",
+				"get_template_directory"
+			],
+			[
+				"wp_en",
+				"wp_enqueue_scripts"
+			],
+			[
+				"get_st",
+				"get_stylesheet_uri"
+			],
+			[
+				"wp_En",
+				"wp_enqueue_style"
+			],
+			[
+				"p",
+				"php\t<?php … ?>"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 38.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git c",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"git pull",
+				"Git: Pull"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"git commit",
+				"Git: Commit"
+			],
+			[
+				"git fetch",
+				"Git: Fetch"
+			],
+			[
+				"git pus",
+				"Git: Push"
+			],
+			[
+				"git pu",
+				"Git: Pull"
+			],
+			[
+				"git ",
+				"Git: Push"
+			],
+			[
+				"git co",
+				"Git: Commit"
+			],
+			[
+				"git pushh",
+				"Git: Push Current Branch"
+			],
+			[
+				"gitcom",
+				"Git: Commit"
+			],
+			[
+				"pull",
+				"Git: Pull"
+			],
+			[
+				"sass",
+				"SassBeautify"
+			],
+			[
+				"set syntax: sa",
+				"Set Syntax: Sass"
+			],
+			[
+				"sa",
+				"Set Syntax: ASP"
+			],
+			[
+				"beau",
+				"SassBeautify"
+			],
+			[
+				"git commi",
+				"Git: Commit"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"sass be",
+				"SassBeautify"
+			],
+			[
+				"brow",
+				"SFTP: Browse Server…"
+			],
+			[
+				"git commit ",
+				"Git: Commit"
+			],
+			[
+				"bea",
+				"SassBeautify"
+			],
+			[
+				"beaut",
+				"SassBeautify"
+			],
+			[
+				"browse",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"browe",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"gi commit",
+				"Git: Commit"
+			],
+			[
+				"sftp",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"wordr",
+				"WordPress Codex: Open Function Reference"
+			],
+			[
+				"query",
+				"WP Queryposts: Search Selection"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"list pa",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"wp_",
+				"Snippet: WP Template: WP_Query"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/laragon/www/wordpress"
+	],
+	"file_history":
+	[
+		"/C/Users/JohnnyDev/Desktop/Appocalyptic/App_theme/html/scss/cristi.scss",
+		"/C/Users/JohnnyDev/AppData/Roaming/Sublime Text 3/Packages/User/SFTP.errors.log",
+		"/C/Users/JohnnyDev/Desktop/alex.composer/Alex.b/panafter/wp-content/themes/PanAfter/assets/css/styles.css",
+		"/C/Users/JohnnyDev/Desktop/alex.composer/Alex.b/panafter/sftp-config.json",
+		"/C/Users/JohnnyDev/Dropbox (Home Design)/small/sass/_important_notice.scss",
+		"/C/Users/JohnnyDev/Dropbox (Home Design)/small/JS/base.js",
+		"/C/Users/JohnnyDev/Dropbox (Home Design)/sto/JS/main.js",
+		"/C/Users/JohnnyDev/Desktop/alex.composer/Alex.b/panafter/wp-content/themes/PanAfter/index.php",
+		"/C/Users/JohnnyDev/Desktop/demokratie/wp-content/themes/ch-theme/page-companies.php",
+		"/C/Users/JohnnyDev/Desktop/demokratie/bower_components/foundation-sites/scss/util/_breakpoint.scss",
+		"/C/Users/JohnnyDev/Desktop/demokratie/wp-content/themes/ch-theme/js/all.min.js",
+		"/C/Users/JohnnyDev/Desktop/demokratie/html/sjs/app.js",
+		"/C/Users/JohnnyDev/Desktop/alex.composer/Alexe/site-vars.js",
+		"/C/Users/JohnnyDev/Desktop/alex.composer/Alexe/src/sass/structure/_layouts.scss",
+		"/C/Users/JohnnyDev/Desktop/alex.composer/Alexe/src/sass/main.scss",
+		"/C/Users/JohnnyDev/Desktop/alex.composer/Alexe/src/sass/custom.scss",
+		"/C/Users/JohnnyDev/Desktop/alex.composer/Alexe/src/sass/_config-site.scss",
+		"/C/Users/JohnnyDev/Desktop/alex.composer/Alexe/src/sass/content/_style-manager.scss",
+		"/C/Users/JohnnyDev/Desktop/alex.composer/Alexe/src/sass/modules/_forms.scss",
+		"/C/Users/JohnnyDev/Desktop/demokratie/html/scss/_settings.scss",
+		"/C/Users/JohnnyDev/Desktop/demokratie/wp-content/themes/ch-theme/css/app.css",
+		"/C/Users/JohnnyDev/Desktop/demokratie/wp-content/themes/ch-theme/front-page.php",
+		"/C/Users/JohnnyDev/Desktop/demokratie/html/scss/_style.scss",
+		"/C/Users/JohnnyDev/Desktop/alex.composer/Alexe/src/js/global.js",
+		"/C/Users/JohnnyDev/Desktop/alex.composer/Alexe/src/sass/structure/_header.scss",
+		"/C/Users/JohnnyDev/Desktop/demokratie/html/scss/app.scss",
+		"/C/Users/JohnnyDev/Desktop/demokratie/html/scss/_footer.scss",
+		"/C/laragon/www/wordpress/wp-content/plugins/google-play-store-app-search-and-insert/index.php",
+		"/C/Users/JohnnyDev/Desktop/demokratie/sftp-config.json",
+		"/C/Users/JohnnyDev/Desktop/A/demok/demokratie/html/scss/_style.scss",
+		"/C/Users/JohnnyDev/AppData/Roaming/Sublime Text 3/Packages/User/SassBeautify.sublime-settings",
+		"/C/Users/JohnnyDev/Desktop/A/demok/demokratie/html/scss/_slider.scss",
+		"/C/Users/JohnnyDev/Desktop/A/demok/demokratie/html/scss/_no-home.scss",
+		"/C/Users/JohnnyDev/Desktop/A/demok/demokratie/html/scss/_events.scss",
+		"/C/Users/JohnnyDev/Desktop/A/html/scss/_style.scss",
+		"/C/Users/JohnnyDev/Desktop/daniel/Uptoled - Copy (3) -- today/html/scss/_style.scss",
+		"/C/Users/JohnnyDev/Desktop/daniel/Uptoled/node_modules/gif-encoder/node_modules/readable-stream/lib/_stream_passthrough.js",
+		"/C/Users/JohnnyDev/Desktop/projects/fs-composer-build/src/sass/_config-site.scss",
+		"/C/Users/JohnnyDev/Desktop/Comp/src/js/main.js",
+		"/C/Users/JohnnyDev/Desktop/Comp/src/js/global.js",
+		"/C/Users/JohnnyDev/Desktop/A/Uptoled/wp-content/themes/ch-theme/fonts/FontAwesome.otf",
+		"/C/Users/JohnnyDev/Desktop/A/Uptoled/wp-content/themes/ch-theme/fonts/fontawesome-webfont.eot",
+		"/C/Users/JohnnyDev/Desktop/A/Uptoled/wp-content/themes/ch-theme/fonts/fontawesome-webfont.svg",
+		"/C/Users/JohnnyDev/Desktop/A/Uptoled/wp-content/themes/ch-theme/fonts/fontawesome-webfont.ttf",
+		"/C/Users/JohnnyDev/Desktop/A/Uptoled/wp-content/themes/ch-theme/fonts/fontawesome-webfont.woff",
+		"/C/Users/JohnnyDev/Desktop/A/Uptoled/wp-content/themes/ch-theme/fonts/fontawesome-webfont.woff2",
+		"/C/Users/JohnnyDev/Desktop/A/Uptoled/wp-content/themes/ch-theme/lib/ch-framework.php",
+		"/C/Users/JohnnyDev/Desktop/A/Uptoled/sftp-config.json",
+		"/C/Users/JohnnyDev/Desktop/A/demok/demokratie/wp-content/themes/ch-theme/css/app.css",
+		"/C/Users/JohnnyDev/Desktop/A/demok/demokratie/wp-content/themes/ch-theme/home.php",
+		"/C/Users/JohnnyDev/Desktop/A/demok/demokratie/wp-content/themes/ch-theme/sidebar.php",
+		"/C/Users/JohnnyDev/Desktop/A/demok/demokratie/wp-content/themes/ch-theme/page.php",
+		"/C/Users/JohnnyDev/Desktop/Comp/src/sass/modules/_media.scss",
+		"/C/Users/JohnnyDev/Desktop/Comp/src/sass/_config-site.scss",
+		"/C/Users/JohnnyDev/Desktop/Comp/src/sass/structure/_header.scss",
+		"/C/Users/JohnnyDev/Desktop/projects/fs-composer-build/src/sass/structure/_header.scss",
+		"/C/Users/JohnnyDev/Desktop/A/demok/demokratie/wp-content/themes/ch-theme/front-page.php",
+		"/C/Users/JohnnyDev/Desktop/A/demok/demokratie/wp-content/themes/ch-theme/map.php",
+		"/C/Users/JohnnyDev/Dropbox (Home Design)/small/detail.html",
+		"/C/Users/JohnnyDev/Desktop/A/demok/demokratie/gulpfile.js",
+		"/C/Users/JohnnyDev/Desktop/A/demok/demokratie/html/scss/app.scss",
+		"/C/Users/JohnnyDev/Desktop/A/demok/demokratie/wp-content/themes/ch-theme/custom-angebote.php",
+		"/C/Users/JohnnyDev/Desktop/A/demok/demokratie/wp-content/themes/ch-theme/search.php",
+		"/C/Users/JohnnyDev/Desktop/A/demok/demokratie/wp-content/themes/ch-theme/custom-search.php",
+		"/C/Users/JohnnyDev/Desktop/A/demok/demokratie/wp-content/themes/ch-theme/single.php",
+		"/C/Users/JohnnyDev/Desktop/A/demok/demokratie/wp-content/themes/ch-theme/single-event-page.php",
+		"/C/Users/JohnnyDev/Desktop/Comp/src/sass/_config-constants.scss",
+		"/C/Users/JohnnyDev/Desktop/Comp/src/sass/navigation/_main-navigation.scss",
+		"/C/Users/JohnnyDev/Desktop/index.html",
+		"/C/Users/JohnnyDev/Desktop/A/demok/demokratie/html/index.php",
+		"/C/Users/JohnnyDev/Desktop/projects/fs-composer-build/site-vars.js",
+		"/C/Users/JohnnyDev/Desktop/A/demok/demokratie/html/scss/_header.scss",
+		"/C/Users/JohnnyDev/AppData/Local/Temp/fz3temp-2/default-template.php",
+		"/C/Users/JohnnyDev/AppData/Local/Temp/fz3temp-2/Templates.php",
+		"/C/users/johnny~1/appdata/local/temp/sublime-sftp-browse-1500384358/mapped/demokratie/wp-content/plugins/the-events-calendar/src/Tribe/Template/Single_Event.php",
+		"/C/users/johnny~1/appdata/local/temp/sublime-sftp-browse-1500384256/mapped/demokratie/wp-content/plugins/the-events-calendar/the-events-calendar.php",
+		"/C/Users/JohnnyDev/AppData/Roaming/Sublime Text 3/Packages/Cmd/cmd.py",
+		"/C/Users/JohnnyDev/Desktop/A/demok/demokratie/html/scss/_news_front-page.scss",
+		"/C/Users/JohnnyDev/Desktop/A/demok/demokratie/html/scss/_settings.scss",
+		"/C/Users/JohnnyDev/Desktop/A/demok/demokratie/html/sjs/app.js",
+		"/C/Users/JohnnyDev/Desktop/A/demok/demokratie/html/scss/_fonts.scss",
+		"/C/Users/JohnnyDev/Desktop/A/demok/demokratie/wp-content/themes/ch-theme/functions.php",
+		"/C/Users/JohnnyDev/Desktop/A/demok/demokratie/wp-content/themes/ch-theme/header.php",
+		"/C/Users/JohnnyDev/Desktop/A/demok/demokratie/html/scss/_welcome-video.scss",
+		"/C/Users/JohnnyDev/Desktop/Comp/.git/config",
+		"/C/Users/JohnnyDev/Dropbox (Home Design)/sto/content.html",
+		"/C/Users/JohnnyDev/Dropbox/sto/content.html",
+		"/C/Users/JohnnyDev/Dropbox/sto/detail.html",
+		"/C/Users/JohnnyDev/Dropbox/sto/home.html",
+		"/C/Users/JohnnyDev/Dropbox/sto/login.html",
+		"/C/Users/JohnnyDev/Dropbox/sto/web-admin.html",
+		"/C/Users/JohnnyDev/Desktop/int/site-vars.js",
+		"/C/Users/JohnnyDev/Desktop/Comp/site-vars.js",
+		"/C/Users/JohnnyDev/Desktop/int/gulpfile.js",
+		"/C/Users/JohnnyDev/Downloads/font-awesome-4.7.0/font-awesome-4.7.0/scss/font-awesome.scss",
+		"/C/Users/JohnnyDev/Downloads/font-awesome-4.7.0/font-awesome-4.7.0/scss/_core.scss",
+		"/C/Users/JohnnyDev/Downloads/font-awesome-4.7.0/font-awesome-4.7.0/scss/_icons.scss",
+		"/C/Users/JohnnyDev/Downloads/font-awesome-4.7.0/font-awesome-4.7.0/scss/_variables.scss",
+		"/C/Users/JohnnyDev/AppData/Roaming/Sublime Text 3/Packages/SassBeautify/SassBeautify.sublime-settings",
+		"/C/Users/JohnnyDev/Desktop/A/demok/demokratie/wp-content/themes/ch-theme/js/all.js",
+		"/C/Users/JohnnyDev/Desktop/poc/JS/main.js",
+		"/C/Users/JohnnyDev/Desktop/poc/home.html",
+		"/C/Users/JohnnyDev/Desktop/poc/tour 8.html",
+		"/C/Users/JohnnyDev/Desktop/vals/wp-content/sftp-config.json",
+		"/C/Users/JohnnyDev/Desktop/A/demok/demokratie/wp-content/themes/ch-theme/js/all.min.js",
+		"/C/Users/JohnnyDev/Desktop/poc/Clientzones/temp/JS/gmaps.js",
+		"/C/Users/JohnnyDev/Desktop/poc/gulpfile.js",
+		"/C/Users/JohnnyDev/Desktop/A Practica Valentin/demok/demokratie/wp-content/themes/ch-theme/js/all.min.js",
+		"/C/Users/JohnnyDev/Desktop/A Practica Valentin/demok/demokratie/wp-content/themes/ch-theme/css/app.css",
+		"/C/Users/JohnnyDev/Desktop/A Practica Valentin/demok/demokratie/html/scss/_header.scss",
+		"/C/Users/JohnnyDev/Desktop/A Practica Valentin/demok/demokratie/html/scss/_events.scss",
+		"/C/Users/JohnnyDev/Desktop/A Practica Valentin/demok/demokratie/gulpfile.js",
+		"/C/Users/JohnnyDev/Desktop/A Practica Valentin/demok/demokratie/wp-content/themes/ch-theme/header.php",
+		"/C/Users/JohnnyDev/Desktop/A Practica Valentin/demok/demokratie/html/lib/header.php",
+		"/C/Users/JohnnyDev/Desktop/poc/content-yellow.html",
+		"/C/Users/JohnnyDev/Desktop/poc/content-light-blue.html",
+		"/C/Users/JohnnyDev/Desktop/poc/content-gold.html",
+		"/C/Users/JohnnyDev/Desktop/poc/content-dark-blue.html",
+		"/C/Users/JohnnyDev/Desktop/poc/content-burgundy.html",
+		"/C/Users/JohnnyDev/Desktop/poc/browser-support.html",
+		"/C/Users/JohnnyDev/Desktop/poc/content.html",
+		"/C/Users/JohnnyDev/Desktop/poc/detail.html",
+		"/C/Users/JohnnyDev/Desktop/poc/JS - OLD/home.html",
+		"/C/Users/JohnnyDev/Desktop/poc/JS/home.html",
+		"/C/Users/JohnnyDev/Desktop/poc/login.html",
+		"/C/Users/JohnnyDev/Desktop/poc/TemplateControl/browser-support.ascx",
+		"/C/Users/JohnnyDev/Desktop/poc/web-admin.html",
+		"/C/Users/JohnnyDev/Desktop/A Practica Valentin/demok/demokratie/html/scss/app.scss"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 350.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 41.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 646.0
+	},
+	"output.sftp":
+	{
+		"height": 266.0
+	},
+	"pinned_build_system": "",
+	"project": "app-wordpress.sublime-project",
+	"replace":
+	{
+		"height": 78.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"app.scs",
+				"html\\scss\\app.scss"
+			],
+			[
+				"gitpush",
+				"node_modules\\gif-encoder\\node_modules\\readable-stream\\lib\\_stream_passthrough.js"
+			],
+			[
+				"app",
+				"wp-content\\themes\\ch-theme\\css\\app.css"
+			],
+			[
+				"gulpfile",
+				"gulpfile.js"
+			],
+			[
+				"search",
+				"wp-content\\themes\\ch-theme\\search.php"
+			],
+			[
+				"side",
+				"wp-content\\themes\\ch-theme\\sidebar.php"
+			],
+			[
+				"home.php",
+				"wp-content\\themes\\ch-theme\\home.php"
+			],
+			[
+				"inde",
+				"html\\index.php"
+			],
+			[
+				"",
+				"html\\scss\\_header.scss"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"app.scss",
+				"html\\scss\\app.scss"
+			],
+			[
+				"all.min",
+				"wp-content\\themes\\ch-theme\\js\\all.min.js"
+			],
+			[
+				"front-",
+				"wp-content\\themes\\ch-theme\\front-page.php"
+			],
+			[
+				"fron",
+				"wp-content\\themes\\ch-theme\\front-page.php"
+			],
+			[
+				"single",
+				"wp-content\\themes\\ch-theme\\single.php"
+			],
+			[
+				"heade",
+				"wp-content\\themes\\wp-theme-3\\header.php"
+			],
+			[
+				"front",
+				"wp-content\\themes\\wp-theme-3\\front-page.php"
+			],
+			[
+				"header",
+				"wp-content\\themes\\ch-theme\\header.php"
+			],
+			[
+				"app.css",
+				"wp-content\\themes\\ch-theme\\css\\app.css"
+			],
+			[
+				"header.php",
+				"wp-content\\themes\\ch-theme\\header.php"
+			],
+			[
+				"slider",
+				"wp-content\\themes\\ch-theme\\slider.php"
+			],
+			[
+				"fron-",
+				"wp-content\\themes\\ch-theme\\front-page.php"
+			],
+			[
+				"slider.php",
+				"wp-content\\themes\\ch-theme\\slider.php"
+			],
+			[
+				"fron-pa",
+				"wp-content\\themes\\ch-theme\\front-page.php"
+			],
+			[
+				"framework",
+				"wp-content\\themes\\ch-theme\\lib\\ch-framework.php"
+			],
+			[
+				"cust",
+				"foundationPractice\\scss\\_custom.scss"
+			],
+			[
+				"settin",
+				"foundationPractice\\scss\\_settings.scss"
+			],
+			[
+				"index",
+				"index.html"
+			],
+			[
+				"heade.scss",
+				"html\\scss\\_header.scss"
+			],
+			[
+				"header.scss",
+				"html\\scss\\_header.scss"
+			],
+			[
+				"custom",
+				"wp-admin\\custom-header.php"
+			],
+			[
+				"searc",
+				"wp-content\\themes\\practica\\search.php"
+			],
+			[
+				"functio",
+				"wp-includes\\functions.php"
+			],
+			[
+				"main",
+				"JS\\main.js"
+			],
+			[
+				"vendor",
+				"app\\assets\\scripts\\Vendor.js"
+			],
+			[
+				"modal",
+				"app\\assets\\styles\\modules\\_modal.css"
+			],
+			[
+				"wrapper",
+				"app\\assets\\styles\\modules\\_wrapper.css"
+			],
+			[
+				"ndex",
+				"app\\index.html"
+			],
+			[
+				"styles",
+				"app\\assets\\styles\\styles.css"
+			],
+			[
+				"section-tile",
+				"app\\assets\\styles\\modules\\_section-title.css"
+			],
+			[
+				"wrapper.css",
+				"app\\assets\\styles\\modules\\_wrapper.css"
+			],
+			[
+				"style",
+				"app\\assets\\styles\\styles.css"
+			],
+			[
+				"site-h",
+				"app\\assets\\styles\\modules\\_site-header.css"
+			],
+			[
+				"sitte-heade",
+				"app\\assets\\styles\\modules\\_site-header.css"
+			],
+			[
+				"theme-setup",
+				"xstore\\theme\\theme-setup.php"
+			],
+			[
+				"script",
+				"paca-travel\\gulp\\tasks\\script.js"
+			],
+			[
+				"watch",
+				"paca-travel\\gulp\\tasks\\watch.js"
+			],
+			[
+				"scripts",
+				"paca-travel\\gulp\\tasks\\script.js"
+			],
+			[
+				"site-hea",
+				"paca-travel\\app\\assets\\styles\\modules\\_site-header.css"
+			],
+			[
+				"large-her",
+				"paca-travel\\app\\assets\\styles\\modules\\_large-hero.css"
+			],
+			[
+				"site-head",
+				"paca-travel\\app\\assets\\styles\\modules\\_site-header.css"
+			],
+			[
+				"site",
+				"paca-travel\\app\\assets\\styles\\modules\\_site-header.css"
+			],
+			[
+				"large-he",
+				"paca-travel\\app\\assets\\styles\\modules\\_large-hero.css"
+			],
+			[
+				"site-",
+				"paca-travel\\app\\assets\\styles\\modules\\_site-header.css"
+			],
+			[
+				"home",
+				"paca-travel\\node_modules\\browser-sync\\node_modules\\browser-sync-ui\\node_modules\\weinre\\web\\doc\\Home.html"
+			],
+			[
+				"prima",
+				"paca-travel\\app\\assets\\styles\\modules\\_primary-nav.css"
+			],
+			[
+				"sit",
+				"paca-travel\\app\\assets\\styles\\modules\\_site-header.css"
+			],
+			[
+				"in",
+				"paca-travel\\node_modules\\gulp\\node_modules\\gulp-util\\lib\\isNull.js"
+			],
+			[
+				"span",
+				"node-experiment\\node_modules\\jquery\\src\\core\\stripAndCollapse.js"
+			],
+			[
+				"foote",
+				"paca-travel\\app\\assets\\styles\\modules\\_footer.css"
+			],
+			[
+				"foo",
+				"paca-travel\\node_modules\\gulp-svg-sprite\\node_modules\\svg-sprite\\node_modules\\lodash\\forOwn.js"
+			],
+			[
+				"footer",
+				"paca-travel\\app\\assets\\styles\\modules\\_footer.css"
+			],
+			[
+				"varia",
+				"paca-travel\\app\\assets\\styles\\base\\_variables.css"
+			],
+			[
+				"st",
+				"paca-travel\\node_modules\\browser-sync\\lib\\templates\\script-tags.tmpl"
+			],
+			[
+				"test",
+				"paca-travel\\app\\assets\\styles\\modules\\_testimonial.css"
+			],
+			[
+				"ind",
+				"paca-travel\\app\\index.html"
+			],
+			[
+				"testim",
+				"paca-travel\\app\\assets\\styles\\modules\\_testimonial.css"
+			],
+			[
+				"page",
+				"paca-travel\\app\\assets\\styles\\modules\\_page-section.css"
+			],
+			[
+				"page-",
+				"paca-travel\\app\\assets\\styles\\modules\\_page-section{"
+			],
+			[
+				"testi",
+				"paca-travel\\app\\assets\\styles\\modules\\_testimonial.css"
+			],
+			[
+				"row",
+				"paca-travel\\app\\assets\\styles\\modules\\_row.css"
+			],
+			[
+				"wrapp",
+				"paca-travel\\app\\assets\\styles\\modules\\_wrapper.css"
+			],
+			[
+				"section-ti",
+				"paca-travel\\app\\assets\\styles\\modules\\_section-title.css"
+			],
+			[
+				"tes",
+				"paca-travel\\app\\assets\\styles\\modules\\_testimonial.css"
+			],
+			[
+				"wrappe",
+				"paca-travel\\app\\assets\\styles\\modules\\_wrapper.css"
+			],
+			[
+				"testimonia",
+				"paca-travel\\app\\assets\\styles\\modules\\_testimonial.css"
+			],
+			[
+				"tesit",
+				"paca-travel\\app\\assets\\styles\\modules\\_testimonial.css"
+			],
+			[
+				"section",
+				"paca-travel\\app\\assets\\styles\\modules\\_section-title.css"
+			],
+			[
+				"feature",
+				"paca-travel\\app\\assets\\styles\\modules\\_feature-item.css"
+			],
+			[
+				"sectio",
+				"paca-travel\\app\\assets\\styles\\modules\\_section-title.css"
+			],
+			[
+				"sect",
+				"paca-travel\\app\\assets\\styles\\modules\\_section-title.css"
+			],
+			[
+				"ge",
+				"paca-travel\\app\\assets\\styles\\modules\\_generic-content.css"
+			],
+			[
+				"featu",
+				"paca-travel\\app\\assets\\styles\\modules\\_feature-item.css"
+			],
+			[
+				"generic",
+				"paca-travel\\app\\assets\\styles\\modules\\_generic-content.css"
+			],
+			[
+				"feat",
+				"paca-travel\\app\\assets\\styles\\modules\\_feature-item.css"
+			],
+			[
+				"styl",
+				"paca-travel\\app\\assets\\styles\\styles.css"
+			],
+			[
+				"large_",
+				"paca-travel\\app\\assets\\styles\\modules\\_large_hero.css"
+			],
+			[
+				"mixi",
+				"paca-travel\\app\\assets\\styles\\base\\_mixins.css"
+			],
+			[
+				"var",
+				"paca-travel\\app\\assets\\styles\\base\\_variables.css"
+			],
+			[
+				"gu",
+				"C:\\Users\\JohnnyDev\\Desktop\\projects\\paca-travel\\gulpfile.js"
+			],
+			[
+				"ma",
+				"js\\main.js"
+			],
+			[
+				"sha",
+				"js\\shareious.js"
+			],
+			[
+				"shar",
+				"sass\\shareious.scss"
+			],
+			[
+				"share",
+				"sass\\shareious.scss"
+			],
+			[
+				"func",
+				"functions.php"
+			],
+			[
+				"foot",
+				"learningWordpress\\footer.php"
+			],
+			[
+				"fun",
+				"learningWordpress\\functions.php"
+			],
+			[
+				"funct",
+				"ShareiousTheme\\functions.php"
+			],
+			[
+				"conten",
+				"content.php"
+			],
+			[
+				"hea",
+				"header.php"
+			],
+			[
+				"mai",
+				"css\\main.css"
+			],
+			[
+				"f",
+				"footer.php"
+			],
+			[
+				"h",
+				"header.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "pana",
+		"selected_items":
+		[
+			[
+				"pana",
+				"C:\\Users\\JohnnyDev\\Desktop\\Alex.b\\panafter\\panafter.sublime-workspace"
+			],
+			[
+				"uptoled",
+				"C:\\Users\\JohnnyDev\\Desktop\\daniel\\Uptoled\\uptoled_new.sublime-workspace"
+			],
+			[
+				"panafter",
+				"C:\\Users\\JohnnyDev\\Desktop\\Alex.b\\panafter\\panafter.sublime-project"
+			],
+			[
+				"",
+				"C:\\laragon\\www\\wordpress\\wp-content\\themes\\onepage.sublime-project"
+			],
+			[
+				"uptole",
+				"C:\\Users\\JohnnyDev\\Desktop\\daniel\\Uptoled\\uptoled_new.sublime-project"
+			],
+			[
+				"demokr",
+				"C:\\Users\\JohnnyDev\\Desktop\\A\\demok\\demokratie\\demok.sublime-workspace"
+			],
+			[
+				"alexe",
+				"C:\\Users\\JohnnyDev\\Desktop\\alex.composer\\Alexe\\qcpsorguk_alexe.sublime-project"
+			]
+		],
+		"width": 768.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 307.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
