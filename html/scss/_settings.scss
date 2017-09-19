@@ -42,6 +42,7 @@
 //  37. Top Bar
 
 @import 'util/util';
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 .tr {
 	transition: all 0.3s;
@@ -79,7 +80,7 @@ $medium-black: black;
 $body-background: $white;
 $body-font-color: $black;
 $footer-background: #0163aa;
-$body-font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+$body-font-family: 'Montserrat', sans-serif;
 $body-antialiased: true;
 $global-margin: 1rem;
 $global-padding: 1rem;
