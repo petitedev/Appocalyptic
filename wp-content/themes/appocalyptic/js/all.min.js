@@ -4232,6 +4232,7 @@
     eventsListener();
     resizeListener();
     scrollListener();
+    mutateListener();
     closemeListener();
   }
 
@@ -4308,6 +4309,15 @@
 
           $nodes.attr('data-events', "scroll");
         }, debounce || 10);
+      });
+    }
+  }
+
+  function mutateListener(debounce) {
+    let $nodes = $('[data-mutate]');
+    if ($nodes.length && MutationObserver) {
+      $nodes.each(function () {
+        $(this).triggerHandler('mutateme.zf.trigger');
       });
     }
   }
@@ -4707,42 +4717,9 @@
         $content.attr({ 'role': 'tabpanel', 'aria-labelledby': linkId, 'aria-hidden': true, 'id': id });
       });
       var $initActive = this.$element.find('.is-active').children('[data-tab-content]');
-      this.firstTimeInit = true;
       if ($initActive.length) {
-        this.down($initActive, this.firstTimeInit);
-        this.firstTimeInit = false;
+        this.down($initActive, true);
       }
-
-      this._checkDeepLink = () => {
-        var anchor = window.location.hash;
-
-        if (anchor.length) {
-          var $link = this.$element.find('[href$="' + anchor + '"]'),
-              $anchor = $(anchor);
-
-          if ($link.length && $anchor) {
-            if (!$link.parent('[data-accordion-item]').hasClass('is-active')) {
-              this.down($anchor, this.firstTimeInit);
-              this.firstTimeInit = false;
-            };
-
-            if (this.options.deepLinkSmudge) {
-              var _this = this;
-              $(window).load(function () {
-                var offset = _this.$element.offset();
-                $('html, body').animate({ scrollTop: offset.top }, _this.options.deepLinkSmudgeDelay);
-              });
-            }
-
-            this.$element.trigger('deeplink.zf.accordion', [$link, $anchor]);
-          }
-        }
-      };
-
-      if (this.options.deepLink) {
-        this._checkDeepLink();
-      }
-
       this._events();
     }
 
@@ -4781,9 +4758,6 @@
           });
         }
       });
-      if (this.options.deepLink) {
-        $(window).on('popstate', this._checkDeepLink);
-      }
     }
 
     toggle($target) {
@@ -4791,16 +4765,6 @@
         this.up($target);
       } else {
         this.down($target);
-      }
-
-      if (this.options.deepLink) {
-        var anchor = $target.prev('a').attr('href');
-
-        if (this.options.updateHistory) {
-          history.pushState({}, '', anchor);
-        } else {
-          history.replaceState({}, '', anchor);
-        }
       }
     }
 
@@ -4848,9 +4812,6 @@
     destroy() {
       this.$element.find('[data-tab-content]').stop(true).slideUp(0).css('display', '');
       this.$element.find('a').off('.zf.accordion');
-      if (this.options.deepLink) {
-        $(window).off('popstate', this._checkDeepLink);
-      }
 
       Foundation.unregisterPlugin(this);
     }
@@ -4861,15 +4822,7 @@
 
     multiExpand: false,
 
-    allowAllClosed: false,
-
-    deepLink: false,
-
-    deepLinkSmudge: false,
-
-    deepLinkSmudgeDelay: 300,
-
-    updateHistory: false
+    allowAllClosed: false
   };
 
   Foundation.plugin(Accordion, 'Accordion');

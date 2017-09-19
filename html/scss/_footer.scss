@@ -1,108 +1,28 @@
-.page-footer {}
+.site-footer{
 
-.section-footer_1 {
-  padding: 50px 15px 30px;
-
-  @include breakpoint(large) {
-    padding: 50px 100px 30px;
-  }
-
-
-  box-shadow: inset 0 -5px 5px 0px rgba(0, 0, 0, 0.12);
-  background: #{map-get($foundation-palette, secondary)};
-  color: #fff;
-
-  .row {
-    position: relative;
-
-    &:before {
-      content: '';
-      display: block;
-      border-right: 138px solid #{map-get($foundation-palette, secondary)};
-      border-left: 0 solid #f6ab4d;
-      border-top: 29px solid rgba(0, 0, 0, 0);
-      float: left;
-      z-index: 0;
-      position: absolute;
-      top: -79px;
-      right: 0;
-
-
-      @include breakpoint(large) {
-        border-right-width: 238px;
-        border-top-width: 49px;
-        top: -99px;
-      }
+  .site-copyright{
+    background-color: #0163aa;
+    background-image:url('../img/footer-background.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+    min-height:120px;
+    &.fullWidth{
+      width:100%;
+      margin-left:auto;
+      margin-right:auto;
+      max-width:initial;
     }
+    a{
+      color:white;
+      font-family: 'Montserraat Regular', sans-serif;
+      font-size:24px;
+      display:block;
+      margin:0 auto;
+      p{
 
-    .lnk-totop {
-      position: absolute;
-      top: -67px;
-      right: 0px;
-      display: table;
-      text-align: center;
-      z-index: 10;
-      padding: 10px 25px;
-      text-decoration: none;
-
-      &:hover {
-        color: $primary;
-      }
-
-      @include breakpoint(large) {
-        top: -67px;
-        right: 40px;
       }
     }
   }
-  p {
-    line-height: 1.2;
 
-    @include breakpoint(large) {
-      line-height: 1.5;
-    }
-  }
-  a {
-    color: inherit;
-    text-decoration: underline;
-  }
-}
-
-.section-footer_2 {
-  padding: 25px 0 0;
-  text-align: center;
-
-  @include breakpoint(medium) {
-    text-align: left;
-    padding-bottom: 30px;
-  }
-
-
-  .menu {
-    list-style: none;
-    margin: 0 -#{-zf-get-bp-val($grid-column-gutter, small) / 2};
-    background: $primary;
-    padding: 25px (-zf-get-bp-val($grid-column-gutter, small) / 2);
-
-    @include breakpoint(medium) {
-      background: $white;
-      padding: 0;
-      margin: 0 0 0 -10px;
-    }
-
-
-    li {
-      display: inline-block;
-    }
-
-    a {
-      color: #fff;
-      text-decoration: underline;
-      padding: 3px 10px;
-
-      @include breakpoint(medium) {
-        color: $black;
-      }
-    }
-  }
 }

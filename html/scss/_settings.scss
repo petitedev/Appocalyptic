@@ -14,7 +14,7 @@
 //   9. Badge
 //  10. Breadcrumbs
 //  11. Button
-//  12. Button Group 
+//  12. Button Group
 //  13. Callout
 //  14. Card
 //  15. Close Button
@@ -41,33 +41,51 @@
 //  36. Tooltip
 //  37. Top Bar
 
-@import "util/util";
+@import 'util/util';
+
+.tr {
+	transition: all 0.3s;
+}
+a{
+	@extend .tr;
+}
+
+// Colors
+// ---------
+
+
 
 // 1. Global
 // ---------
 
 $global-font-size: 100%;
-$global-width: rem-calc(1170);
+$global-width: rem-calc(1200);
 $global-lineheight: 1.5;
-$foundation-palette: (primary: #f18700, secondary: #aeaeae, success: #3adb76, warning: #ffae00, alert: #cc4b37);
-
-$primary: #f18700;
-$blue: #253f7c;
-$light-gray: #eaeaea;
+$foundation-palette: (
+  primary: #1779ba,
+  secondary: #767676,
+  success: #3adb76,
+  warning: #ffae00,
+  alert: #cc4b37,
+);
+$light-gray: #e6e6e6;
 $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
-$black: #000;
-$medium-black: #2e2f33;
+$black: #0a0a0a;
 $white: #fefefe;
+$blue: blue;
+$primary: #0163aa;
+$medium-black: black;
 $body-background: $white;
 $body-font-color: $black;
-$body-font-family: Arimo, Helvetica, Roboto, Arial, sans-serif;
+$footer-background: #0163aa;
+$body-font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
 $body-antialiased: true;
 $global-margin: 1rem;
 $global-padding: 1rem;
 $global-weight-normal: normal;
 $global-weight-bold: bold;
-$global-radius: 22px;
+$global-radius: 0;
 $global-text-direction: ltr;
 $global-flexbox: false;
 $print-transparent-backgrounds: true;
@@ -77,19 +95,26 @@ $print-transparent-backgrounds: true;
 // 2. Breakpoints
 // --------------
 
-$breakpoints: (small: 0, smallx: 480, smallMedium: 600, medium: 640px, mediumMedium: 720px, mediumLarge: 800px, large: 1024px, xlarge: 1200px, xxlarge: 1440px);
-
+$breakpoints: (
+  small: 0,
+  medium: 640px,
+  large: 1024px,
+  xlarge: 1200px,
+  xxlarge: 1440px,
+);
 $print-breakpoint: large;
-$breakpoint-classes: small medium large;
+$breakpoint-classes: (small medium large);
 
 // 3. The Grid
 // -----------
 
 $grid-row-width: $global-width;
 $grid-column-count: 12;
-$grid-column-gutter: (small: 20px, medium: 30px);
-
-$grid-column-align-edge: false;
+$grid-column-gutter: (
+  small: 20px,
+  medium: 30px,
+);
+$grid-column-align-edge: true;
 $block-grid-max: 8;
 
 // 4. Base Typography
@@ -98,16 +123,32 @@ $block-grid-max: 8;
 $header-font-family: $body-font-family;
 $header-font-weight: $global-weight-normal;
 $header-font-style: normal;
-$font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
+$font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
 $header-color: inherit;
 $header-lineheight: 1.4;
-$header-margin-bottom: 1rem;
-$header-styles: (small: ("h1": ("font-size": 22), "h2": ("font-size": 20), "h3": ("font-size": 20), "h4": ("font-size": 18), "h5": ("font-size": 16), "h6": ("font-size": 16)), medium: ("h1": ("font-size": 26), "h2": ("font-size": 22), "h3": ("font-size": 20), "h4": ("font-size": 20), "h5": ("font-size": 18), "h6": ("font-size": 16)));
-
+$header-margin-bottom: 0.5rem;
+$header-styles: (
+  small: (
+    'h1': ('font-size': 24),
+    'h2': ('font-size': 20),
+    'h3': ('font-size': 19),
+    'h4': ('font-size': 18),
+    'h5': ('font-size': 17),
+    'h6': ('font-size': 16),
+  ),
+  medium: (
+    'h1': ('font-size': 48),
+    'h2': ('font-size': 40),
+    'h3': ('font-size': 31),
+    'h4': ('font-size': 25),
+    'h5': ('font-size': 20),
+    'h6': ('font-size': 16),
+  ),
+);
 $header-text-rendering: optimizeLegibility;
 $small-font-size: 80%;
 $header-small-font-color: $medium-gray;
-$paragraph-lineheight: 1.625;
+$paragraph-lineheight: 1.6;
 $paragraph-margin-bottom: 1rem;
 $paragraph-text-rendering: optimizeLegibility;
 $code-color: $black;
@@ -137,7 +178,7 @@ $blockquote-padding: rem-calc(9 20 0 19);
 $blockquote-border: 1px solid $medium-gray;
 $cite-font-size: rem-calc(13);
 $cite-color: $dark-gray;
-$cite-pseudo-content: "— ";
+$cite-pseudo-content: '\2014 \0020';
 $keystroke-font: $font-family-monospace;
 $keystroke-color: $black;
 $keystroke-background: $light-gray;
@@ -215,16 +256,20 @@ $breadcrumbs-item-slash: true;
 // 11. Button
 // ----------
 
-$button-padding: 0.83em 3em;
+$button-padding: 0.85em 1em;
 $button-margin: 0 0 $global-margin 0;
 $button-fill: solid;
 $button-background: $primary-color;
-$button-background-hover: scale-color($button-background, $lightness: 15%);
+$button-background-hover: scale-color($button-background, $lightness: -15%);
 $button-color: $white;
 $button-color-alt: $black;
 $button-radius: $global-radius;
-$button-sizes: (tiny: 0.75rem, small: 0.85rem, default: 1rem, large: 1.25rem);
-
+$button-sizes: (
+  tiny: 0.6rem,
+  small: 0.75rem,
+  default: 0.9rem,
+  large: 1.25rem,
+);
 $button-palette: $foundation-palette;
 $button-opacity-disabled: 0.25;
 $button-background-hover-lightness: -20%;
@@ -236,7 +281,7 @@ $button-transition: background-color 0.25s ease-out, color 0.25s ease-out;
 
 $buttongroup-margin: 1rem;
 $buttongroup-spacing: 1px;
-$buttongroup-child-selector: ".button";
+$buttongroup-child-selector: '.button';
 $buttongroup-expand-max: 6;
 $buttongroup-radius-on-each: true;
 
@@ -269,12 +314,18 @@ $card-margin: $global-margin;
 // ----------------
 
 $closebutton-position: right top;
-$closebutton-offset-horizontal: (small: 0.66rem, medium: 1rem);
-
-$closebutton-offset-vertical: (small: 0.33em, medium: 0.5rem);
-
-$closebutton-size: (small: 1.5em, medium: 2em);
-
+$closebutton-offset-horizontal: (
+  small: 0.66rem,
+  medium: 1rem,
+);
+$closebutton-offset-vertical: (
+  small: 0.33em,
+  medium: 0.5rem,
+);
+$closebutton-size: (
+  small: 1.5em,
+  medium: 2em,
+);
 $closebutton-lineheight: 1;
 $closebutton-color: $dark-gray;
 $closebutton-color-hover: $black;
@@ -297,7 +348,11 @@ $dropdown-border: 1px solid $medium-gray;
 $dropdown-font-size: 1rem;
 $dropdown-width: 300px;
 $dropdown-radius: $global-radius;
-$dropdown-sizes: (tiny: 100px, small: 200px, large: 400px);
+$dropdown-sizes: (
+  tiny: 100px,
+  small: 200px,
+  large: 400px,
+);
 
 // 18. Dropdown Menu
 // -----------------
@@ -327,7 +382,7 @@ $input-prefix-padding: 1rem;
 $form-label-color: $black;
 $form-label-font-size: rem-calc(14);
 $form-label-font-weight: $global-weight-normal;
-$form-label-line-height: 1.2;
+$form-label-line-height: 1.8;
 $select-background: $white;
 $select-triangle-color: $dark-gray;
 $select-radius: $global-radius;
@@ -336,12 +391,12 @@ $input-placeholder-color: $medium-gray;
 $input-font-family: inherit;
 $input-font-size: rem-calc(16);
 $input-font-weight: $global-weight-normal;
-$input-background: $light-gray;
+$input-background: $white;
 $input-background-focus: $white;
 $input-background-disabled: $light-gray;
-$input-border: 1px solid $light-gray;
+$input-border: 1px solid $medium-gray;
 $input-border-focus: 1px solid $dark-gray;
-$input-shadow: none;
+$input-shadow: inset 0 1px 2px rgba($black, 0.1);
 $input-shadow-focus: 0 0 5px $medium-gray;
 $input-cursor-disabled: not-allowed;
 $input-transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
@@ -403,7 +458,7 @@ $offcanvas-transition-length: 0.5s;
 $offcanvas-transition-timing: ease;
 $offcanvas-fixed-reveal: true;
 $offcanvas-exit-background: rgba($white, 0.25);
-$maincontent-class: "off-canvas-content";
+$maincontent-class: 'off-canvas-content';
 
 // 25. Orbit
 // ---------
@@ -451,7 +506,10 @@ $progress-radius: $global-radius;
 // --------------------
 
 $responsive-embed-margin-bottom: rem-calc(16);
-$responsive-embed-ratios: (default: 4 by 3, widescreen: 16 by 9);
+$responsive-embed-ratios: (
+  default: 4 by 3,
+  widescreen: 16 by 9,
+);
 
 // 29. Reveal
 // ----------
@@ -577,10 +635,3 @@ $topbar-title-spacing: 0.5rem 1rem 0.5rem 0;
 $topbar-input-width: 200px;
 $topbar-unstack-breakpoint: medium;
 
-.tr {
-  transition: all .3s;
-}
-
-a {
-  @extend .tr;
-}
