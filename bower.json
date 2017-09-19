@@ -25,5 +25,10 @@
   "private": true,
   "resolutions": {
     "what-input": "~4.0.3"
-  }
+  },
+  "devDependencies": {
+    "font-awesome": "fontawesome#^4.7.0"
+  },
+
+ 
 }

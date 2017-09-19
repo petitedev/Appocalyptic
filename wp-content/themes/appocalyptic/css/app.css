@@ -8,7 +8,7 @@
 
 @font-face { font-family: 'Kaufmann'; src: url("../font/Kaufmann-Bold.eot"); src: url("../font/Kaufmann-Bold.eot?#iefix") format("embedded-opentype"), url("../font/Kaufmann-Bold.woff2") format("woff2"), url("../font/Kaufmann-Bold.woff") format("woff"), url("../font/Kaufmann-Bold.ttf") format("truetype"), url("../font/Kaufmann-Bold.svg#Kaufmann-Bold") format("svg"); font-weight: bold; font-style: normal; }
 
-.kauf, .main-slider .main-slider-container .slide-content .slide-description *, .main-slider .main-slider-container .slide-content .slide-author * { font-family: 'Kaufmann', sans-serif; }
+.kauf { font-family: 'Kaufmann', sans-serif; }
 
 @font-face { font-family: 'fontello'; src: url("../font/fontello.eot?83592446"); src: url("../font/fontello.eot?83592446#iefix") format("embedded-opentype"), url("../font/fontello.woff2?83592446") format("woff2"), url("../font/fontello.woff?83592446") format("woff"), url("../font/fontello.ttf?83592446") format("truetype"), url("../font/fontello.svg?83592446#fontello") format("svg"); font-weight: normal; font-style: normal; }
 
@@ -36,7 +36,7 @@
 .icon-twitter:before { content: '\f309'; }
 
 /* '' */
-.tr, a, .main-slider .main-slider-container ul.slick-dots li button, .searchandfilter .cat-item label:before, .registration-form-event .wpcf7-form .wpcf7-list-item-label:before { transition: all 0.3s; }
+.tr, a { transition: all 0.3s; }
 
 /** Foundation for Sites by ZURB Version 6.3.1 foundation.zurb.com Licensed under MIT Open Source */
 /*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */
@@ -1001,105 +1001,105 @@ p + .stat { margin-top: -1rem; }
   h2, h3 { page-break-after: avoid; }
   .print-break-inside { page-break-inside: auto; } }
 
-.button, [class*='page-pagination'] a, .companies-accordion-close a, .slider-articles .slick-next { display: inline-block; vertical-align: middle; margin: 0 0 1rem 0; padding: 0.85em 1em; -webkit-appearance: none; border: 1px solid transparent; border-radius: 0; transition: background-color 0.25s ease-out, color 0.25s ease-out; font-size: 0.9rem; line-height: 1; text-align: center; cursor: pointer; background-color: #1779ba; color: #fefefe; }
+.button { display: inline-block; vertical-align: middle; margin: 0 0 1rem 0; padding: 0.85em 1em; -webkit-appearance: none; border: 1px solid transparent; border-radius: 0; transition: background-color 0.25s ease-out, color 0.25s ease-out; font-size: 0.9rem; line-height: 1; text-align: center; cursor: pointer; background-color: #1779ba; color: #fefefe; }
 
-[data-whatinput='mouse'] .button, [data-whatinput='mouse'] [class*='page-pagination'] a, [class*='page-pagination'] [data-whatinput='mouse'] a, [data-whatinput='mouse'] .companies-accordion-close a, .companies-accordion-close [data-whatinput='mouse'] a, [data-whatinput='mouse'] .slider-articles .slick-next, .slider-articles [data-whatinput='mouse'] .slick-next { outline: 0; }
+[data-whatinput='mouse'] .button { outline: 0; }
 
-.button:hover, [class*='page-pagination'] a:hover, .companies-accordion-close a:hover, .slider-articles .slick-next:hover, .button:focus, [class*='page-pagination'] a:focus, .companies-accordion-close a:focus, .slider-articles .slick-next:focus { background-color: #14679e; color: #fefefe; }
+.button:hover, .button:focus { background-color: #14679e; color: #fefefe; }
 
-.button.tiny, [class*='page-pagination'] a.tiny, .companies-accordion-close a.tiny, .slider-articles .tiny.slick-next { font-size: 0.6rem; }
+.button.tiny { font-size: 0.6rem; }
 
-.button.small, [class*='page-pagination'] a.small, .companies-accordion-close a.small, .slider-articles .small.slick-next { font-size: 0.75rem; }
+.button.small { font-size: 0.75rem; }
 
-.button.large, [class*='page-pagination'] a.large, .companies-accordion-close a.large, .slider-articles .large.slick-next { font-size: 1.25rem; }
+.button.large { font-size: 1.25rem; }
 
-.button.expanded, [class*='page-pagination'] a.expanded, .companies-accordion-close a.expanded, .slider-articles .expanded.slick-next { display: block; width: 100%; margin-right: 0; margin-left: 0; }
+.button.expanded { display: block; width: 100%; margin-right: 0; margin-left: 0; }
 
-.button.primary, [class*='page-pagination'] a.primary, .companies-accordion-close a.primary, .slider-articles .primary.slick-next { background-color: #1779ba; color: #fefefe; }
+.button.primary { background-color: #1779ba; color: #fefefe; }
 
-.button.primary:hover, [class*='page-pagination'] a.primary:hover, .companies-accordion-close a.primary:hover, .slider-articles .primary.slick-next:hover, .button.primary:focus, [class*='page-pagination'] a.primary:focus, .companies-accordion-close a.primary:focus, .slider-articles .primary.slick-next:focus { background-color: #126195; color: #fefefe; }
+.button.primary:hover, .button.primary:focus { background-color: #126195; color: #fefefe; }
 
-.button.secondary, [class*='page-pagination'] a.secondary, .companies-accordion-close a.secondary, .slider-articles .secondary.slick-next { background-color: #767676; color: #fefefe; }
+.button.secondary { background-color: #767676; color: #fefefe; }
 
-.button.secondary:hover, [class*='page-pagination'] a.secondary:hover, .companies-accordion-close a.secondary:hover, .slider-articles .secondary.slick-next:hover, .button.secondary:focus, [class*='page-pagination'] a.secondary:focus, .companies-accordion-close a.secondary:focus, .slider-articles .secondary.slick-next:focus { background-color: #5e5e5e; color: #fefefe; }
+.button.secondary:hover, .button.secondary:focus { background-color: #5e5e5e; color: #fefefe; }
 
-.button.success, [class*='page-pagination'] a.success, .companies-accordion-close a.success, .slider-articles .success.slick-next { background-color: #3adb76; color: #0a0a0a; }
+.button.success { background-color: #3adb76; color: #0a0a0a; }
 
-.button.success:hover, [class*='page-pagination'] a.success:hover, .companies-accordion-close a.success:hover, .slider-articles .success.slick-next:hover, .button.success:focus, [class*='page-pagination'] a.success:focus, .companies-accordion-close a.success:focus, .slider-articles .success.slick-next:focus { background-color: #22bb5b; color: #0a0a0a; }
+.button.success:hover, .button.success:focus { background-color: #22bb5b; color: #0a0a0a; }
 
-.button.warning, [class*='page-pagination'] a.warning, .companies-accordion-close a.warning, .slider-articles .warning.slick-next { background-color: #ffae00; color: #0a0a0a; }
+.button.warning { background-color: #ffae00; color: #0a0a0a; }
 
-.button.warning:hover, [class*='page-pagination'] a.warning:hover, .companies-accordion-close a.warning:hover, .slider-articles .warning.slick-next:hover, .button.warning:focus, [class*='page-pagination'] a.warning:focus, .companies-accordion-close a.warning:focus, .slider-articles .warning.slick-next:focus { background-color: #cc8b00; color: #0a0a0a; }
+.button.warning:hover, .button.warning:focus { background-color: #cc8b00; color: #0a0a0a; }
 
-.button.alert, [class*='page-pagination'] a.alert, .companies-accordion-close a.alert, .slider-articles .alert.slick-next { background-color: #cc4b37; color: #fefefe; }
+.button.alert { background-color: #cc4b37; color: #fefefe; }
 
-.button.alert:hover, [class*='page-pagination'] a.alert:hover, .companies-accordion-close a.alert:hover, .slider-articles .alert.slick-next:hover, .button.alert:focus, [class*='page-pagination'] a.alert:focus, .companies-accordion-close a.alert:focus, .slider-articles .alert.slick-next:focus { background-color: #a53b2a; color: #fefefe; }
+.button.alert:hover, .button.alert:focus { background-color: #a53b2a; color: #fefefe; }
 
-.button.hollow, [class*='page-pagination'] a.hollow, .companies-accordion-close a.hollow, .slider-articles .hollow.slick-next { border: 1px solid #1779ba; color: #1779ba; }
+.button.hollow { border: 1px solid #1779ba; color: #1779ba; }
 
-.button.hollow, [class*='page-pagination'] a.hollow, .companies-accordion-close a.hollow, .slider-articles .hollow.slick-next, .button.hollow:hover, [class*='page-pagination'] a.hollow:hover, .companies-accordion-close a.hollow:hover, .slider-articles .hollow.slick-next:hover, .button.hollow:focus, [class*='page-pagination'] a.hollow:focus, .companies-accordion-close a.hollow:focus, .slider-articles .hollow.slick-next:focus { background-color: transparent; }
+.button.hollow, .button.hollow:hover, .button.hollow:focus { background-color: transparent; }
 
-.button.hollow:hover, [class*='page-pagination'] a.hollow:hover, .companies-accordion-close a.hollow:hover, .slider-articles .hollow.slick-next:hover, .button.hollow:focus, [class*='page-pagination'] a.hollow:focus, .companies-accordion-close a.hollow:focus, .slider-articles .hollow.slick-next:focus { border-color: #0c3d5d; color: #0c3d5d; }
+.button.hollow:hover, .button.hollow:focus { border-color: #0c3d5d; color: #0c3d5d; }
 
-.button.hollow.primary, [class*='page-pagination'] a.hollow.primary, .companies-accordion-close a.hollow.primary, .slider-articles .hollow.primary.slick-next { border: 1px solid #1779ba; color: #1779ba; }
+.button.hollow.primary { border: 1px solid #1779ba; color: #1779ba; }
 
-.button.hollow.primary:hover, [class*='page-pagination'] a.hollow.primary:hover, .companies-accordion-close a.hollow.primary:hover, .slider-articles .hollow.primary.slick-next:hover, .button.hollow.primary:focus, [class*='page-pagination'] a.hollow.primary:focus, .companies-accordion-close a.hollow.primary:focus, .slider-articles .hollow.primary.slick-next:focus { border-color: #0c3d5d; color: #0c3d5d; }
+.button.hollow.primary:hover, .button.hollow.primary:focus { border-color: #0c3d5d; color: #0c3d5d; }
 
-.button.hollow.secondary, [class*='page-pagination'] a.hollow.secondary, .companies-accordion-close a.hollow.secondary, .slider-articles .hollow.secondary.slick-next { border: 1px solid #767676; color: #767676; }
+.button.hollow.secondary { border: 1px solid #767676; color: #767676; }
 
-.button.hollow.secondary:hover, [class*='page-pagination'] a.hollow.secondary:hover, .companies-accordion-close a.hollow.secondary:hover, .slider-articles .hollow.secondary.slick-next:hover, .button.hollow.secondary:focus, [class*='page-pagination'] a.hollow.secondary:focus, .companies-accordion-close a.hollow.secondary:focus, .slider-articles .hollow.secondary.slick-next:focus { border-color: #3b3b3b; color: #3b3b3b; }
+.button.hollow.secondary:hover, .button.hollow.secondary:focus { border-color: #3b3b3b; color: #3b3b3b; }
 
-.button.hollow.success, [class*='page-pagination'] a.hollow.success, .companies-accordion-close a.hollow.success, .slider-articles .hollow.success.slick-next { border: 1px solid #3adb76; color: #3adb76; }
+.button.hollow.success { border: 1px solid #3adb76; color: #3adb76; }
 
-.button.hollow.success:hover, [class*='page-pagination'] a.hollow.success:hover, .companies-accordion-close a.hollow.success:hover, .slider-articles .hollow.success.slick-next:hover, .button.hollow.success:focus, [class*='page-pagination'] a.hollow.success:focus, .companies-accordion-close a.hollow.success:focus, .slider-articles .hollow.success.slick-next:focus { border-color: #157539; color: #157539; }
+.button.hollow.success:hover, .button.hollow.success:focus { border-color: #157539; color: #157539; }
 
-.button.hollow.warning, [class*='page-pagination'] a.hollow.warning, .companies-accordion-close a.hollow.warning, .slider-articles .hollow.warning.slick-next { border: 1px solid #ffae00; color: #ffae00; }
+.button.hollow.warning { border: 1px solid #ffae00; color: #ffae00; }
 
-.button.hollow.warning:hover, [class*='page-pagination'] a.hollow.warning:hover, .companies-accordion-close a.hollow.warning:hover, .slider-articles .hollow.warning.slick-next:hover, .button.hollow.warning:focus, [class*='page-pagination'] a.hollow.warning:focus, .companies-accordion-close a.hollow.warning:focus, .slider-articles .hollow.warning.slick-next:focus { border-color: #805700; color: #805700; }
+.button.hollow.warning:hover, .button.hollow.warning:focus { border-color: #805700; color: #805700; }
 
-.button.hollow.alert, [class*='page-pagination'] a.hollow.alert, .companies-accordion-close a.hollow.alert, .slider-articles .hollow.alert.slick-next { border: 1px solid #cc4b37; color: #cc4b37; }
+.button.hollow.alert { border: 1px solid #cc4b37; color: #cc4b37; }
 
-.button.hollow.alert:hover, [class*='page-pagination'] a.hollow.alert:hover, .companies-accordion-close a.hollow.alert:hover, .slider-articles .hollow.alert.slick-next:hover, .button.hollow.alert:focus, [class*='page-pagination'] a.hollow.alert:focus, .companies-accordion-close a.hollow.alert:focus, .slider-articles .hollow.alert.slick-next:focus { border-color: #67251a; color: #67251a; }
+.button.hollow.alert:hover, .button.hollow.alert:focus { border-color: #67251a; color: #67251a; }
 
-.button.disabled, [class*='page-pagination'] a.disabled, .companies-accordion-close a.disabled, .slider-articles .disabled.slick-next, .button[disabled], [class*='page-pagination'] a[disabled], .companies-accordion-close a[disabled], .slider-articles [disabled].slick-next { opacity: 0.25; cursor: not-allowed; }
+.button.disabled, .button[disabled] { opacity: 0.25; cursor: not-allowed; }
 
-.button.disabled, [class*='page-pagination'] a.disabled, .companies-accordion-close a.disabled, .slider-articles .disabled.slick-next, .button.disabled:hover, [class*='page-pagination'] a.disabled:hover, .companies-accordion-close a.disabled:hover, .slider-articles .disabled.slick-next:hover, .button.disabled:focus, [class*='page-pagination'] a.disabled:focus, .companies-accordion-close a.disabled:focus, .slider-articles .disabled.slick-next:focus, .button[disabled], [class*='page-pagination'] a[disabled], .companies-accordion-close a[disabled], .slider-articles [disabled].slick-next, .button[disabled]:hover, [class*='page-pagination'] a[disabled]:hover, .companies-accordion-close a[disabled]:hover, .slider-articles [disabled].slick-next:hover, .button[disabled]:focus, [class*='page-pagination'] a[disabled]:focus, .companies-accordion-close a[disabled]:focus, .slider-articles [disabled].slick-next:focus { background-color: #1779ba; color: #fefefe; }
+.button.disabled, .button.disabled:hover, .button.disabled:focus, .button[disabled], .button[disabled]:hover, .button[disabled]:focus { background-color: #1779ba; color: #fefefe; }
 
-.button.disabled.primary, [class*='page-pagination'] a.disabled.primary, .companies-accordion-close a.disabled.primary, .slider-articles .disabled.primary.slick-next, .button[disabled].primary, [class*='page-pagination'] a[disabled].primary, .companies-accordion-close a[disabled].primary, .slider-articles [disabled].primary.slick-next { opacity: 0.25; cursor: not-allowed; }
+.button.disabled.primary, .button[disabled].primary { opacity: 0.25; cursor: not-allowed; }
 
-.button.disabled.primary, [class*='page-pagination'] a.disabled.primary, .companies-accordion-close a.disabled.primary, .slider-articles .disabled.primary.slick-next, .button.disabled.primary:hover, [class*='page-pagination'] a.disabled.primary:hover, .companies-accordion-close a.disabled.primary:hover, .slider-articles .disabled.primary.slick-next:hover, .button.disabled.primary:focus, [class*='page-pagination'] a.disabled.primary:focus, .companies-accordion-close a.disabled.primary:focus, .slider-articles .disabled.primary.slick-next:focus, .button[disabled].primary, [class*='page-pagination'] a[disabled].primary, .companies-accordion-close a[disabled].primary, .slider-articles [disabled].primary.slick-next, .button[disabled].primary:hover, [class*='page-pagination'] a[disabled].primary:hover, .companies-accordion-close a[disabled].primary:hover, .slider-articles [disabled].primary.slick-next:hover, .button[disabled].primary:focus, [class*='page-pagination'] a[disabled].primary:focus, .companies-accordion-close a[disabled].primary:focus, .slider-articles [disabled].primary.slick-next:focus { background-color: #1779ba; color: #fefefe; }
+.button.disabled.primary, .button.disabled.primary:hover, .button.disabled.primary:focus, .button[disabled].primary, .button[disabled].primary:hover, .button[disabled].primary:focus { background-color: #1779ba; color: #fefefe; }
 
-.button.disabled.secondary, [class*='page-pagination'] a.disabled.secondary, .companies-accordion-close a.disabled.secondary, .slider-articles .disabled.secondary.slick-next, .button[disabled].secondary, [class*='page-pagination'] a[disabled].secondary, .companies-accordion-close a[disabled].secondary, .slider-articles [disabled].secondary.slick-next { opacity: 0.25; cursor: not-allowed; }
+.button.disabled.secondary, .button[disabled].secondary { opacity: 0.25; cursor: not-allowed; }
 
-.button.disabled.secondary, [class*='page-pagination'] a.disabled.secondary, .companies-accordion-close a.disabled.secondary, .slider-articles .disabled.secondary.slick-next, .button.disabled.secondary:hover, [class*='page-pagination'] a.disabled.secondary:hover, .companies-accordion-close a.disabled.secondary:hover, .slider-articles .disabled.secondary.slick-next:hover, .button.disabled.secondary:focus, [class*='page-pagination'] a.disabled.secondary:focus, .companies-accordion-close a.disabled.secondary:focus, .slider-articles .disabled.secondary.slick-next:focus, .button[disabled].secondary, [class*='page-pagination'] a[disabled].secondary, .companies-accordion-close a[disabled].secondary, .slider-articles [disabled].secondary.slick-next, .button[disabled].secondary:hover, [class*='page-pagination'] a[disabled].secondary:hover, .companies-accordion-close a[disabled].secondary:hover, .slider-articles [disabled].secondary.slick-next:hover, .button[disabled].secondary:focus, [class*='page-pagination'] a[disabled].secondary:focus, .companies-accordion-close a[disabled].secondary:focus, .slider-articles [disabled].secondary.slick-next:focus { background-color: #767676; color: #fefefe; }
+.button.disabled.secondary, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary, .button[disabled].secondary:hover, .button[disabled].secondary:focus { background-color: #767676; color: #fefefe; }
 
-.button.disabled.success, [class*='page-pagination'] a.disabled.success, .companies-accordion-close a.disabled.success, .slider-articles .disabled.success.slick-next, .button[disabled].success, [class*='page-pagination'] a[disabled].success, .companies-accordion-close a[disabled].success, .slider-articles [disabled].success.slick-next { opacity: 0.25; cursor: not-allowed; }
+.button.disabled.success, .button[disabled].success { opacity: 0.25; cursor: not-allowed; }
 
-.button.disabled.success, [class*='page-pagination'] a.disabled.success, .companies-accordion-close a.disabled.success, .slider-articles .disabled.success.slick-next, .button.disabled.success:hover, [class*='page-pagination'] a.disabled.success:hover, .companies-accordion-close a.disabled.success:hover, .slider-articles .disabled.success.slick-next:hover, .button.disabled.success:focus, [class*='page-pagination'] a.disabled.success:focus, .companies-accordion-close a.disabled.success:focus, .slider-articles .disabled.success.slick-next:focus, .button[disabled].success, [class*='page-pagination'] a[disabled].success, .companies-accordion-close a[disabled].success, .slider-articles [disabled].success.slick-next, .button[disabled].success:hover, [class*='page-pagination'] a[disabled].success:hover, .companies-accordion-close a[disabled].success:hover, .slider-articles [disabled].success.slick-next:hover, .button[disabled].success:focus, [class*='page-pagination'] a[disabled].success:focus, .companies-accordion-close a[disabled].success:focus, .slider-articles [disabled].success.slick-next:focus { background-color: #3adb76; color: #0a0a0a; }
+.button.disabled.success, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success, .button[disabled].success:hover, .button[disabled].success:focus { background-color: #3adb76; color: #0a0a0a; }
 
-.button.disabled.warning, [class*='page-pagination'] a.disabled.warning, .companies-accordion-close a.disabled.warning, .slider-articles .disabled.warning.slick-next, .button[disabled].warning, [class*='page-pagination'] a[disabled].warning, .companies-accordion-close a[disabled].warning, .slider-articles [disabled].warning.slick-next { opacity: 0.25; cursor: not-allowed; }
+.button.disabled.warning, .button[disabled].warning { opacity: 0.25; cursor: not-allowed; }
 
-.button.disabled.warning, [class*='page-pagination'] a.disabled.warning, .companies-accordion-close a.disabled.warning, .slider-articles .disabled.warning.slick-next, .button.disabled.warning:hover, [class*='page-pagination'] a.disabled.warning:hover, .companies-accordion-close a.disabled.warning:hover, .slider-articles .disabled.warning.slick-next:hover, .button.disabled.warning:focus, [class*='page-pagination'] a.disabled.warning:focus, .companies-accordion-close a.disabled.warning:focus, .slider-articles .disabled.warning.slick-next:focus, .button[disabled].warning, [class*='page-pagination'] a[disabled].warning, .companies-accordion-close a[disabled].warning, .slider-articles [disabled].warning.slick-next, .button[disabled].warning:hover, [class*='page-pagination'] a[disabled].warning:hover, .companies-accordion-close a[disabled].warning:hover, .slider-articles [disabled].warning.slick-next:hover, .button[disabled].warning:focus, [class*='page-pagination'] a[disabled].warning:focus, .companies-accordion-close a[disabled].warning:focus, .slider-articles [disabled].warning.slick-next:focus { background-color: #ffae00; color: #0a0a0a; }
+.button.disabled.warning, .button.disabled.warning:hover, .button.disabled.warning:focus, .button[disabled].warning, .button[disabled].warning:hover, .button[disabled].warning:focus { background-color: #ffae00; color: #0a0a0a; }
 
-.button.disabled.alert, [class*='page-pagination'] a.disabled.alert, .companies-accordion-close a.disabled.alert, .slider-articles .disabled.alert.slick-next, .button[disabled].alert, [class*='page-pagination'] a[disabled].alert, .companies-accordion-close a[disabled].alert, .slider-articles [disabled].alert.slick-next { opacity: 0.25; cursor: not-allowed; }
+.button.disabled.alert, .button[disabled].alert { opacity: 0.25; cursor: not-allowed; }
 
-.button.disabled.alert, [class*='page-pagination'] a.disabled.alert, .companies-accordion-close a.disabled.alert, .slider-articles .disabled.alert.slick-next, .button.disabled.alert:hover, [class*='page-pagination'] a.disabled.alert:hover, .companies-accordion-close a.disabled.alert:hover, .slider-articles .disabled.alert.slick-next:hover, .button.disabled.alert:focus, [class*='page-pagination'] a.disabled.alert:focus, .companies-accordion-close a.disabled.alert:focus, .slider-articles .disabled.alert.slick-next:focus, .button[disabled].alert, [class*='page-pagination'] a[disabled].alert, .companies-accordion-close a[disabled].alert, .slider-articles [disabled].alert.slick-next, .button[disabled].alert:hover, [class*='page-pagination'] a[disabled].alert:hover, .companies-accordion-close a[disabled].alert:hover, .slider-articles [disabled].alert.slick-next:hover, .button[disabled].alert:focus, [class*='page-pagination'] a[disabled].alert:focus, .companies-accordion-close a[disabled].alert:focus, .slider-articles [disabled].alert.slick-next:focus { background-color: #cc4b37; color: #fefefe; }
+.button.disabled.alert, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert, .button[disabled].alert:hover, .button[disabled].alert:focus { background-color: #cc4b37; color: #fefefe; }
 
-.button.dropdown::after, [class*='page-pagination'] a.dropdown::after, .companies-accordion-close a.dropdown::after, .slider-articles .dropdown.slick-next::after { display: block; width: 0; height: 0; border: inset 0.4em; content: ''; border-bottom-width: 0; border-top-style: solid; border-color: #fefefe transparent transparent; position: relative; top: 0.4em; display: inline-block; float: right; margin-left: 1em; }
+.button.dropdown::after { display: block; width: 0; height: 0; border: inset 0.4em; content: ''; border-bottom-width: 0; border-top-style: solid; border-color: #fefefe transparent transparent; position: relative; top: 0.4em; display: inline-block; float: right; margin-left: 1em; }
 
-.button.dropdown.hollow::after, [class*='page-pagination'] a.dropdown.hollow::after, .companies-accordion-close a.dropdown.hollow::after, .slider-articles .dropdown.hollow.slick-next::after { border-top-color: #1779ba; }
+.button.dropdown.hollow::after { border-top-color: #1779ba; }
 
-.button.dropdown.hollow.primary::after, [class*='page-pagination'] a.dropdown.hollow.primary::after, .companies-accordion-close a.dropdown.hollow.primary::after, .slider-articles .dropdown.hollow.primary.slick-next::after { border-top-color: #1779ba; }
+.button.dropdown.hollow.primary::after { border-top-color: #1779ba; }
 
-.button.dropdown.hollow.secondary::after, [class*='page-pagination'] a.dropdown.hollow.secondary::after, .companies-accordion-close a.dropdown.hollow.secondary::after, .slider-articles .dropdown.hollow.secondary.slick-next::after { border-top-color: #767676; }
+.button.dropdown.hollow.secondary::after { border-top-color: #767676; }
 
-.button.dropdown.hollow.success::after, [class*='page-pagination'] a.dropdown.hollow.success::after, .companies-accordion-close a.dropdown.hollow.success::after, .slider-articles .dropdown.hollow.success.slick-next::after { border-top-color: #3adb76; }
+.button.dropdown.hollow.success::after { border-top-color: #3adb76; }
 
-.button.dropdown.hollow.warning::after, [class*='page-pagination'] a.dropdown.hollow.warning::after, .companies-accordion-close a.dropdown.hollow.warning::after, .slider-articles .dropdown.hollow.warning.slick-next::after { border-top-color: #ffae00; }
+.button.dropdown.hollow.warning::after { border-top-color: #ffae00; }
 
-.button.dropdown.hollow.alert::after, [class*='page-pagination'] a.dropdown.hollow.alert::after, .companies-accordion-close a.dropdown.hollow.alert::after, .slider-articles .dropdown.hollow.alert.slick-next::after { border-top-color: #cc4b37; }
+.button.dropdown.hollow.alert::after { border-top-color: #cc4b37; }
 
-.button.arrow-only::after, [class*='page-pagination'] a.arrow-only::after, .companies-accordion-close a.arrow-only::after, .slider-articles .arrow-only.slick-next::after { top: -0.1em; float: none; margin-left: 0; }
+.button.arrow-only::after { top: -0.1em; float: none; margin-left: 0; }
 
 [type='text'], [type='password'], [type='date'], [type='datetime'], [type='datetime-local'], [type='month'], [type='week'], [type='email'], [type='number'], [type='search'], [type='tel'], [type='time'], [type='url'], [type='color'], textarea { display: block; box-sizing: border-box; width: 100%; height: 2.4375rem; margin: 0 0 1rem; padding: 0.5rem; border: 1px solid #cacaca; border-radius: 0; background-color: #fefefe; box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1); font-family: inherit; font-size: 1rem; font-weight: normal; color: #0a0a0a; transition: box-shadow 0.5s, border-color 0.25s ease-in-out; -webkit-appearance: none; -moz-appearance: none; appearance: none; }
 
@@ -1277,72 +1277,72 @@ output { vertical-align: middle; margin-left: 0.5em; line-height: 1.4rem; }
 
 .button-group::after { clear: both; }
 
-.button-group .button, .button-group [class*='page-pagination'] a, [class*='page-pagination'] .button-group a, .button-group .companies-accordion-close a, .companies-accordion-close .button-group a, .button-group .slider-articles .slick-next, .slider-articles .button-group .slick-next { margin: 0; margin-right: 1px; margin-bottom: 1px; font-size: 0.9rem; }
+.button-group .button { margin: 0; margin-right: 1px; margin-bottom: 1px; font-size: 0.9rem; }
 
-.button-group .button:last-child, .button-group [class*='page-pagination'] a:last-child, [class*='page-pagination'] .button-group a:last-child, .button-group .companies-accordion-close a:last-child, .companies-accordion-close .button-group a:last-child, .button-group .slider-articles .slick-next:last-child, .slider-articles .button-group .slick-next:last-child { margin-right: 0; }
+.button-group .button:last-child { margin-right: 0; }
 
-.button-group.tiny .button, .button-group.tiny [class*='page-pagination'] a, [class*='page-pagination'] .button-group.tiny a, .button-group.tiny .companies-accordion-close a, .companies-accordion-close .button-group.tiny a, .button-group.tiny .slider-articles .slick-next, .slider-articles .button-group.tiny .slick-next { font-size: 0.6rem; }
+.button-group.tiny .button { font-size: 0.6rem; }
 
-.button-group.small .button, .button-group.small [class*='page-pagination'] a, [class*='page-pagination'] .button-group.small a, .button-group.small .companies-accordion-close a, .companies-accordion-close .button-group.small a, .button-group.small .slider-articles .slick-next, .slider-articles .button-group.small .slick-next { font-size: 0.75rem; }
+.button-group.small .button { font-size: 0.75rem; }
 
-.button-group.large .button, .button-group.large [class*='page-pagination'] a, [class*='page-pagination'] .button-group.large a, .button-group.large .companies-accordion-close a, .companies-accordion-close .button-group.large a, .button-group.large .slider-articles .slick-next, .slider-articles .button-group.large .slick-next { font-size: 1.25rem; }
+.button-group.large .button { font-size: 1.25rem; }
 
 .button-group.expanded { margin-right: -1px; }
 
 .button-group.expanded::before, .button-group.expanded::after { display: none; }
 
-.button-group.expanded .button:first-child:last-child, .button-group.expanded [class*='page-pagination'] a:first-child:last-child, [class*='page-pagination'] .button-group.expanded a:first-child:last-child, .button-group.expanded .companies-accordion-close a:first-child:last-child, .companies-accordion-close .button-group.expanded a:first-child:last-child, .button-group.expanded .slider-articles .slick-next:first-child:last-child, .slider-articles .button-group.expanded .slick-next:first-child:last-child { width: 100%; }
+.button-group.expanded .button:first-child:last-child { width: 100%; }
 
-.button-group.expanded .button:first-child:nth-last-child(2), .button-group.expanded [class*='page-pagination'] a:first-child:nth-last-child(2), [class*='page-pagination'] .button-group.expanded a:first-child:nth-last-child(2), .button-group.expanded .companies-accordion-close a:first-child:nth-last-child(2), .companies-accordion-close .button-group.expanded a:first-child:nth-last-child(2), .button-group.expanded .slider-articles .slick-next:first-child:nth-last-child(2), .slider-articles .button-group.expanded .slick-next:first-child:nth-last-child(2), .button-group.expanded .button:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .button, .button-group.expanded [class*='page-pagination'] a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .button, [class*='page-pagination'] .button-group.expanded a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .button, .button-group.expanded .companies-accordion-close a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .button, .companies-accordion-close .button-group.expanded a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .button, .button-group.expanded .slider-articles .slick-next:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .button, .slider-articles .button-group.expanded .slick-next:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .button, .button-group.expanded [class*='page-pagination'] .button:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a, [class*='page-pagination'] .button-group.expanded .button:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a, .button-group.expanded [class*='page-pagination'] a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a, [class*='page-pagination'] .button-group.expanded a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a, .button-group.expanded .companies-accordion-close [class*='page-pagination'] a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a, [class*='page-pagination'] .companies-accordion-close .button-group.expanded a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a, .button-group.expanded .slider-articles [class*='page-pagination'] .slick-next:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a, [class*='page-pagination'] .button-group.expanded .slider-articles .slick-next:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a, .slider-articles .button-group.expanded [class*='page-pagination'] .slick-next:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a, [class*='page-pagination'] .slider-articles .button-group.expanded .slick-next:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a, .button-group.expanded .companies-accordion-close .button:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a, .companies-accordion-close .button-group.expanded .button:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a, .button-group.expanded [class*='page-pagination'] .companies-accordion-close a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a, .companies-accordion-close .button-group.expanded [class*='page-pagination'] a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a, [class*='page-pagination'] .button-group.expanded .companies-accordion-close a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a, .companies-accordion-close [class*='page-pagination'] .button-group.expanded a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a, .button-group.expanded .companies-accordion-close a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a, .companies-accordion-close .button-group.expanded a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a, .button-group.expanded .slider-articles .companies-accordion-close .slick-next:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a, .companies-accordion-close .button-group.expanded .slider-articles .slick-next:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a, .slider-articles .button-group.expanded .companies-accordion-close .slick-next:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a, .companies-accordion-close .slider-articles .button-group.expanded .slick-next:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a, .button-group.expanded .slider-articles .button:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .slick-next, .slider-articles .button-group.expanded .button:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .slick-next, .button-group.expanded [class*='page-pagination'] .slider-articles a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .slick-next, .slider-articles .button-group.expanded [class*='page-pagination'] a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .slick-next, [class*='page-pagination'] .button-group.expanded .slider-articles a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .slick-next, .slider-articles [class*='page-pagination'] .button-group.expanded a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .slick-next, .button-group.expanded .companies-accordion-close .slider-articles a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .slick-next, .slider-articles .button-group.expanded .companies-accordion-close a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .slick-next, .companies-accordion-close .button-group.expanded .slider-articles a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .slick-next, .slider-articles .companies-accordion-close .button-group.expanded a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .slick-next, .button-group.expanded .slider-articles .slick-next:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .slick-next, .slider-articles .button-group.expanded .slick-next:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .slick-next { display: inline-block; width: calc(50% - 1px); margin-right: 1px; }
+.button-group.expanded .button:first-child:nth-last-child(2), .button-group.expanded .button:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .button { display: inline-block; width: calc(50% - 1px); margin-right: 1px; }
 
-.button-group.expanded .button:first-child:nth-last-child(2):last-child, .button-group.expanded [class*='page-pagination'] a:first-child:nth-last-child(2):last-child, [class*='page-pagination'] .button-group.expanded a:first-child:nth-last-child(2):last-child, .button-group.expanded .companies-accordion-close a:first-child:nth-last-child(2):last-child, .companies-accordion-close .button-group.expanded a:first-child:nth-last-child(2):last-child, .button-group.expanded .slider-articles .slick-next:first-child:nth-last-child(2):last-child, .slider-articles .button-group.expanded .slick-next:first-child:nth-last-child(2):last-child, .button-group.expanded .button:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .button:last-child, .button-group.expanded [class*='page-pagination'] a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .button:last-child, [class*='page-pagination'] .button-group.expanded a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .button:last-child, .button-group.expanded .companies-accordion-close a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .button:last-child, .companies-accordion-close .button-group.expanded a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .button:last-child, .button-group.expanded .slider-articles .slick-next:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .button:last-child, .slider-articles .button-group.expanded .slick-next:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .button:last-child, .button-group.expanded [class*='page-pagination'] .button:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a:last-child, [class*='page-pagination'] .button-group.expanded .button:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a:last-child, .button-group.expanded [class*='page-pagination'] a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a:last-child, [class*='page-pagination'] .button-group.expanded a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a:last-child, .button-group.expanded .companies-accordion-close [class*='page-pagination'] a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a:last-child, [class*='page-pagination'] .companies-accordion-close .button-group.expanded a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a:last-child, .button-group.expanded .slider-articles [class*='page-pagination'] .slick-next:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a:last-child, [class*='page-pagination'] .button-group.expanded .slider-articles .slick-next:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a:last-child, .slider-articles .button-group.expanded [class*='page-pagination'] .slick-next:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a:last-child, [class*='page-pagination'] .slider-articles .button-group.expanded .slick-next:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a:last-child, .button-group.expanded .companies-accordion-close .button:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a:last-child, .companies-accordion-close .button-group.expanded .button:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a:last-child, .button-group.expanded [class*='page-pagination'] .companies-accordion-close a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a:last-child, .companies-accordion-close .button-group.expanded [class*='page-pagination'] a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a:last-child, [class*='page-pagination'] .button-group.expanded .companies-accordion-close a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a:last-child, .companies-accordion-close [class*='page-pagination'] .button-group.expanded a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a:last-child, .button-group.expanded .companies-accordion-close a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a:last-child, .companies-accordion-close .button-group.expanded a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a:last-child, .button-group.expanded .slider-articles .companies-accordion-close .slick-next:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a:last-child, .companies-accordion-close .button-group.expanded .slider-articles .slick-next:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a:last-child, .slider-articles .button-group.expanded .companies-accordion-close .slick-next:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a:last-child, .companies-accordion-close .slider-articles .button-group.expanded .slick-next:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a:last-child, .button-group.expanded .slider-articles .button:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .slick-next:last-child, .slider-articles .button-group.expanded .button:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .slick-next:last-child, .button-group.expanded [class*='page-pagination'] .slider-articles a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .slick-next:last-child, .slider-articles .button-group.expanded [class*='page-pagination'] a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .slick-next:last-child, [class*='page-pagination'] .button-group.expanded .slider-articles a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .slick-next:last-child, .slider-articles [class*='page-pagination'] .button-group.expanded a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .slick-next:last-child, .button-group.expanded .companies-accordion-close .slider-articles a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .slick-next:last-child, .slider-articles .button-group.expanded .companies-accordion-close a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .slick-next:last-child, .companies-accordion-close .button-group.expanded .slider-articles a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .slick-next:last-child, .slider-articles .companies-accordion-close .button-group.expanded a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .slick-next:last-child, .button-group.expanded .slider-articles .slick-next:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .slick-next:last-child, .slider-articles .button-group.expanded .slick-next:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .slick-next:last-child { margin-right: -6px; }
+.button-group.expanded .button:first-child:nth-last-child(2):last-child, .button-group.expanded .button:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .button:last-child { margin-right: -6px; }
 
-.button-group.expanded .button:first-child:nth-last-child(3), .button-group.expanded [class*='page-pagination'] a:first-child:nth-last-child(3), [class*='page-pagination'] .button-group.expanded a:first-child:nth-last-child(3), .button-group.expanded .companies-accordion-close a:first-child:nth-last-child(3), .companies-accordion-close .button-group.expanded a:first-child:nth-last-child(3), .button-group.expanded .slider-articles .slick-next:first-child:nth-last-child(3), .slider-articles .button-group.expanded .slick-next:first-child:nth-last-child(3), .button-group.expanded .button:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .button, .button-group.expanded [class*='page-pagination'] a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .button, [class*='page-pagination'] .button-group.expanded a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .button, .button-group.expanded .companies-accordion-close a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .button, .companies-accordion-close .button-group.expanded a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .button, .button-group.expanded .slider-articles .slick-next:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .button, .slider-articles .button-group.expanded .slick-next:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .button, .button-group.expanded [class*='page-pagination'] .button:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a, [class*='page-pagination'] .button-group.expanded .button:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a, .button-group.expanded [class*='page-pagination'] a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a, [class*='page-pagination'] .button-group.expanded a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a, .button-group.expanded .companies-accordion-close [class*='page-pagination'] a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a, [class*='page-pagination'] .companies-accordion-close .button-group.expanded a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a, .button-group.expanded .slider-articles [class*='page-pagination'] .slick-next:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a, [class*='page-pagination'] .button-group.expanded .slider-articles .slick-next:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a, .slider-articles .button-group.expanded [class*='page-pagination'] .slick-next:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a, [class*='page-pagination'] .slider-articles .button-group.expanded .slick-next:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a, .button-group.expanded .companies-accordion-close .button:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a, .companies-accordion-close .button-group.expanded .button:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a, .button-group.expanded [class*='page-pagination'] .companies-accordion-close a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a, .companies-accordion-close .button-group.expanded [class*='page-pagination'] a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a, [class*='page-pagination'] .button-group.expanded .companies-accordion-close a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a, .companies-accordion-close [class*='page-pagination'] .button-group.expanded a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a, .button-group.expanded .companies-accordion-close a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a, .companies-accordion-close .button-group.expanded a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a, .button-group.expanded .slider-articles .companies-accordion-close .slick-next:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a, .companies-accordion-close .button-group.expanded .slider-articles .slick-next:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a, .slider-articles .button-group.expanded .companies-accordion-close .slick-next:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a, .companies-accordion-close .slider-articles .button-group.expanded .slick-next:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a, .button-group.expanded .slider-articles .button:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .slick-next, .slider-articles .button-group.expanded .button:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .slick-next, .button-group.expanded [class*='page-pagination'] .slider-articles a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .slick-next, .slider-articles .button-group.expanded [class*='page-pagination'] a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .slick-next, [class*='page-pagination'] .button-group.expanded .slider-articles a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .slick-next, .slider-articles [class*='page-pagination'] .button-group.expanded a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .slick-next, .button-group.expanded .companies-accordion-close .slider-articles a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .slick-next, .slider-articles .button-group.expanded .companies-accordion-close a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .slick-next, .companies-accordion-close .button-group.expanded .slider-articles a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .slick-next, .slider-articles .companies-accordion-close .button-group.expanded a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .slick-next, .button-group.expanded .slider-articles .slick-next:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .slick-next, .slider-articles .button-group.expanded .slick-next:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .slick-next { display: inline-block; width: calc(33.33333% - 1px); margin-right: 1px; }
+.button-group.expanded .button:first-child:nth-last-child(3), .button-group.expanded .button:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .button { display: inline-block; width: calc(33.33333% - 1px); margin-right: 1px; }
 
-.button-group.expanded .button:first-child:nth-last-child(3):last-child, .button-group.expanded [class*='page-pagination'] a:first-child:nth-last-child(3):last-child, [class*='page-pagination'] .button-group.expanded a:first-child:nth-last-child(3):last-child, .button-group.expanded .companies-accordion-close a:first-child:nth-last-child(3):last-child, .companies-accordion-close .button-group.expanded a:first-child:nth-last-child(3):last-child, .button-group.expanded .slider-articles .slick-next:first-child:nth-last-child(3):last-child, .slider-articles .button-group.expanded .slick-next:first-child:nth-last-child(3):last-child, .button-group.expanded .button:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .button:last-child, .button-group.expanded [class*='page-pagination'] a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .button:last-child, [class*='page-pagination'] .button-group.expanded a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .button:last-child, .button-group.expanded .companies-accordion-close a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .button:last-child, .companies-accordion-close .button-group.expanded a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .button:last-child, .button-group.expanded .slider-articles .slick-next:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .button:last-child, .slider-articles .button-group.expanded .slick-next:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .button:last-child, .button-group.expanded [class*='page-pagination'] .button:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a:last-child, [class*='page-pagination'] .button-group.expanded .button:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a:last-child, .button-group.expanded [class*='page-pagination'] a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a:last-child, [class*='page-pagination'] .button-group.expanded a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a:last-child, .button-group.expanded .companies-accordion-close [class*='page-pagination'] a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a:last-child, [class*='page-pagination'] .companies-accordion-close .button-group.expanded a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a:last-child, .button-group.expanded .slider-articles [class*='page-pagination'] .slick-next:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a:last-child, [class*='page-pagination'] .button-group.expanded .slider-articles .slick-next:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a:last-child, .slider-articles .button-group.expanded [class*='page-pagination'] .slick-next:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a:last-child, [class*='page-pagination'] .slider-articles .button-group.expanded .slick-next:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a:last-child, .button-group.expanded .companies-accordion-close .button:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a:last-child, .companies-accordion-close .button-group.expanded .button:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a:last-child, .button-group.expanded [class*='page-pagination'] .companies-accordion-close a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a:last-child, .companies-accordion-close .button-group.expanded [class*='page-pagination'] a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a:last-child, [class*='page-pagination'] .button-group.expanded .companies-accordion-close a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a:last-child, .companies-accordion-close [class*='page-pagination'] .button-group.expanded a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a:last-child, .button-group.expanded .companies-accordion-close a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a:last-child, .companies-accordion-close .button-group.expanded a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a:last-child, .button-group.expanded .slider-articles .companies-accordion-close .slick-next:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a:last-child, .companies-accordion-close .button-group.expanded .slider-articles .slick-next:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a:last-child, .slider-articles .button-group.expanded .companies-accordion-close .slick-next:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a:last-child, .companies-accordion-close .slider-articles .button-group.expanded .slick-next:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a:last-child, .button-group.expanded .slider-articles .button:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .slick-next:last-child, .slider-articles .button-group.expanded .button:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .slick-next:last-child, .button-group.expanded [class*='page-pagination'] .slider-articles a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .slick-next:last-child, .slider-articles .button-group.expanded [class*='page-pagination'] a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .slick-next:last-child, [class*='page-pagination'] .button-group.expanded .slider-articles a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .slick-next:last-child, .slider-articles [class*='page-pagination'] .button-group.expanded a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .slick-next:last-child, .button-group.expanded .companies-accordion-close .slider-articles a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .slick-next:last-child, .slider-articles .button-group.expanded .companies-accordion-close a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .slick-next:last-child, .companies-accordion-close .button-group.expanded .slider-articles a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .slick-next:last-child, .slider-articles .companies-accordion-close .button-group.expanded a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .slick-next:last-child, .button-group.expanded .slider-articles .slick-next:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .slick-next:last-child, .slider-articles .button-group.expanded .slick-next:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .slick-next:last-child { margin-right: -6px; }
+.button-group.expanded .button:first-child:nth-last-child(3):last-child, .button-group.expanded .button:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .button:last-child { margin-right: -6px; }
 
-.button-group.expanded .button:first-child:nth-last-child(4), .button-group.expanded [class*='page-pagination'] a:first-child:nth-last-child(4), [class*='page-pagination'] .button-group.expanded a:first-child:nth-last-child(4), .button-group.expanded .companies-accordion-close a:first-child:nth-last-child(4), .companies-accordion-close .button-group.expanded a:first-child:nth-last-child(4), .button-group.expanded .slider-articles .slick-next:first-child:nth-last-child(4), .slider-articles .button-group.expanded .slick-next:first-child:nth-last-child(4), .button-group.expanded .button:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .button, .button-group.expanded [class*='page-pagination'] a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .button, [class*='page-pagination'] .button-group.expanded a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .button, .button-group.expanded .companies-accordion-close a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .button, .companies-accordion-close .button-group.expanded a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .button, .button-group.expanded .slider-articles .slick-next:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .button, .slider-articles .button-group.expanded .slick-next:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .button, .button-group.expanded [class*='page-pagination'] .button:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a, [class*='page-pagination'] .button-group.expanded .button:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a, .button-group.expanded [class*='page-pagination'] a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a, [class*='page-pagination'] .button-group.expanded a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a, .button-group.expanded .companies-accordion-close [class*='page-pagination'] a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a, [class*='page-pagination'] .companies-accordion-close .button-group.expanded a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a, .button-group.expanded .slider-articles [class*='page-pagination'] .slick-next:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a, [class*='page-pagination'] .button-group.expanded .slider-articles .slick-next:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a, .slider-articles .button-group.expanded [class*='page-pagination'] .slick-next:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a, [class*='page-pagination'] .slider-articles .button-group.expanded .slick-next:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a, .button-group.expanded .companies-accordion-close .button:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a, .companies-accordion-close .button-group.expanded .button:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a, .button-group.expanded [class*='page-pagination'] .companies-accordion-close a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a, .companies-accordion-close .button-group.expanded [class*='page-pagination'] a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a, [class*='page-pagination'] .button-group.expanded .companies-accordion-close a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a, .companies-accordion-close [class*='page-pagination'] .button-group.expanded a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a, .button-group.expanded .companies-accordion-close a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a, .companies-accordion-close .button-group.expanded a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a, .button-group.expanded .slider-articles .companies-accordion-close .slick-next:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a, .companies-accordion-close .button-group.expanded .slider-articles .slick-next:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a, .slider-articles .button-group.expanded .companies-accordion-close .slick-next:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a, .companies-accordion-close .slider-articles .button-group.expanded .slick-next:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a, .button-group.expanded .slider-articles .button:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .slick-next, .slider-articles .button-group.expanded .button:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .slick-next, .button-group.expanded [class*='page-pagination'] .slider-articles a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .slick-next, .slider-articles .button-group.expanded [class*='page-pagination'] a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .slick-next, [class*='page-pagination'] .button-group.expanded .slider-articles a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .slick-next, .slider-articles [class*='page-pagination'] .button-group.expanded a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .slick-next, .button-group.expanded .companies-accordion-close .slider-articles a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .slick-next, .slider-articles .button-group.expanded .companies-accordion-close a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .slick-next, .companies-accordion-close .button-group.expanded .slider-articles a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .slick-next, .slider-articles .companies-accordion-close .button-group.expanded a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .slick-next, .button-group.expanded .slider-articles .slick-next:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .slick-next, .slider-articles .button-group.expanded .slick-next:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .slick-next { display: inline-block; width: calc(25% - 1px); margin-right: 1px; }
+.button-group.expanded .button:first-child:nth-last-child(4), .button-group.expanded .button:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .button { display: inline-block; width: calc(25% - 1px); margin-right: 1px; }
 
-.button-group.expanded .button:first-child:nth-last-child(4):last-child, .button-group.expanded [class*='page-pagination'] a:first-child:nth-last-child(4):last-child, [class*='page-pagination'] .button-group.expanded a:first-child:nth-last-child(4):last-child, .button-group.expanded .companies-accordion-close a:first-child:nth-last-child(4):last-child, .companies-accordion-close .button-group.expanded a:first-child:nth-last-child(4):last-child, .button-group.expanded .slider-articles .slick-next:first-child:nth-last-child(4):last-child, .slider-articles .button-group.expanded .slick-next:first-child:nth-last-child(4):last-child, .button-group.expanded .button:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .button:last-child, .button-group.expanded [class*='page-pagination'] a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .button:last-child, [class*='page-pagination'] .button-group.expanded a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .button:last-child, .button-group.expanded .companies-accordion-close a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .button:last-child, .companies-accordion-close .button-group.expanded a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .button:last-child, .button-group.expanded .slider-articles .slick-next:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .button:last-child, .slider-articles .button-group.expanded .slick-next:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .button:last-child, .button-group.expanded [class*='page-pagination'] .button:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a:last-child, [class*='page-pagination'] .button-group.expanded .button:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a:last-child, .button-group.expanded [class*='page-pagination'] a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a:last-child, [class*='page-pagination'] .button-group.expanded a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a:last-child, .button-group.expanded .companies-accordion-close [class*='page-pagination'] a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a:last-child, [class*='page-pagination'] .companies-accordion-close .button-group.expanded a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a:last-child, .button-group.expanded .slider-articles [class*='page-pagination'] .slick-next:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a:last-child, [class*='page-pagination'] .button-group.expanded .slider-articles .slick-next:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a:last-child, .slider-articles .button-group.expanded [class*='page-pagination'] .slick-next:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a:last-child, [class*='page-pagination'] .slider-articles .button-group.expanded .slick-next:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a:last-child, .button-group.expanded .companies-accordion-close .button:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a:last-child, .companies-accordion-close .button-group.expanded .button:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a:last-child, .button-group.expanded [class*='page-pagination'] .companies-accordion-close a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a:last-child, .companies-accordion-close .button-group.expanded [class*='page-pagination'] a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a:last-child, [class*='page-pagination'] .button-group.expanded .companies-accordion-close a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a:last-child, .companies-accordion-close [class*='page-pagination'] .button-group.expanded a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a:last-child, .button-group.expanded .companies-accordion-close a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a:last-child, .companies-accordion-close .button-group.expanded a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a:last-child, .button-group.expanded .slider-articles .companies-accordion-close .slick-next:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a:last-child, .companies-accordion-close .button-group.expanded .slider-articles .slick-next:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a:last-child, .slider-articles .button-group.expanded .companies-accordion-close .slick-next:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a:last-child, .companies-accordion-close .slider-articles .button-group.expanded .slick-next:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a:last-child, .button-group.expanded .slider-articles .button:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .slick-next:last-child, .slider-articles .button-group.expanded .button:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .slick-next:last-child, .button-group.expanded [class*='page-pagination'] .slider-articles a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .slick-next:last-child, .slider-articles .button-group.expanded [class*='page-pagination'] a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .slick-next:last-child, [class*='page-pagination'] .button-group.expanded .slider-articles a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .slick-next:last-child, .slider-articles [class*='page-pagination'] .button-group.expanded a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .slick-next:last-child, .button-group.expanded .companies-accordion-close .slider-articles a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .slick-next:last-child, .slider-articles .button-group.expanded .companies-accordion-close a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .slick-next:last-child, .companies-accordion-close .button-group.expanded .slider-articles a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .slick-next:last-child, .slider-articles .companies-accordion-close .button-group.expanded a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .slick-next:last-child, .button-group.expanded .slider-articles .slick-next:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .slick-next:last-child, .slider-articles .button-group.expanded .slick-next:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .slick-next:last-child { margin-right: -6px; }
+.button-group.expanded .button:first-child:nth-last-child(4):last-child, .button-group.expanded .button:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .button:last-child { margin-right: -6px; }
 
-.button-group.expanded .button:first-child:nth-last-child(5), .button-group.expanded [class*='page-pagination'] a:first-child:nth-last-child(5), [class*='page-pagination'] .button-group.expanded a:first-child:nth-last-child(5), .button-group.expanded .companies-accordion-close a:first-child:nth-last-child(5), .companies-accordion-close .button-group.expanded a:first-child:nth-last-child(5), .button-group.expanded .slider-articles .slick-next:first-child:nth-last-child(5), .slider-articles .button-group.expanded .slick-next:first-child:nth-last-child(5), .button-group.expanded .button:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .button, .button-group.expanded [class*='page-pagination'] a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .button, [class*='page-pagination'] .button-group.expanded a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .button, .button-group.expanded .companies-accordion-close a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .button, .companies-accordion-close .button-group.expanded a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .button, .button-group.expanded .slider-articles .slick-next:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .button, .slider-articles .button-group.expanded .slick-next:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .button, .button-group.expanded [class*='page-pagination'] .button:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a, [class*='page-pagination'] .button-group.expanded .button:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a, .button-group.expanded [class*='page-pagination'] a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a, [class*='page-pagination'] .button-group.expanded a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a, .button-group.expanded .companies-accordion-close [class*='page-pagination'] a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a, [class*='page-pagination'] .companies-accordion-close .button-group.expanded a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a, .button-group.expanded .slider-articles [class*='page-pagination'] .slick-next:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a, [class*='page-pagination'] .button-group.expanded .slider-articles .slick-next:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a, .slider-articles .button-group.expanded [class*='page-pagination'] .slick-next:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a, [class*='page-pagination'] .slider-articles .button-group.expanded .slick-next:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a, .button-group.expanded .companies-accordion-close .button:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a, .companies-accordion-close .button-group.expanded .button:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a, .button-group.expanded [class*='page-pagination'] .companies-accordion-close a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a, .companies-accordion-close .button-group.expanded [class*='page-pagination'] a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a, [class*='page-pagination'] .button-group.expanded .companies-accordion-close a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a, .companies-accordion-close [class*='page-pagination'] .button-group.expanded a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a, .button-group.expanded .companies-accordion-close a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a, .companies-accordion-close .button-group.expanded a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a, .button-group.expanded .slider-articles .companies-accordion-close .slick-next:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a, .companies-accordion-close .button-group.expanded .slider-articles .slick-next:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a, .slider-articles .button-group.expanded .companies-accordion-close .slick-next:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a, .companies-accordion-close .slider-articles .button-group.expanded .slick-next:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a, .button-group.expanded .slider-articles .button:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .slick-next, .slider-articles .button-group.expanded .button:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .slick-next, .button-group.expanded [class*='page-pagination'] .slider-articles a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .slick-next, .slider-articles .button-group.expanded [class*='page-pagination'] a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .slick-next, [class*='page-pagination'] .button-group.expanded .slider-articles a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .slick-next, .slider-articles [class*='page-pagination'] .button-group.expanded a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .slick-next, .button-group.expanded .companies-accordion-close .slider-articles a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .slick-next, .slider-articles .button-group.expanded .companies-accordion-close a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .slick-next, .companies-accordion-close .button-group.expanded .slider-articles a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .slick-next, .slider-articles .companies-accordion-close .button-group.expanded a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .slick-next, .button-group.expanded .slider-articles .slick-next:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .slick-next, .slider-articles .button-group.expanded .slick-next:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .slick-next { display: inline-block; width: calc(20% - 1px); margin-right: 1px; }
+.button-group.expanded .button:first-child:nth-last-child(5), .button-group.expanded .button:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .button { display: inline-block; width: calc(20% - 1px); margin-right: 1px; }
 
-.button-group.expanded .button:first-child:nth-last-child(5):last-child, .button-group.expanded [class*='page-pagination'] a:first-child:nth-last-child(5):last-child, [class*='page-pagination'] .button-group.expanded a:first-child:nth-last-child(5):last-child, .button-group.expanded .companies-accordion-close a:first-child:nth-last-child(5):last-child, .companies-accordion-close .button-group.expanded a:first-child:nth-last-child(5):last-child, .button-group.expanded .slider-articles .slick-next:first-child:nth-last-child(5):last-child, .slider-articles .button-group.expanded .slick-next:first-child:nth-last-child(5):last-child, .button-group.expanded .button:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .button:last-child, .button-group.expanded [class*='page-pagination'] a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .button:last-child, [class*='page-pagination'] .button-group.expanded a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .button:last-child, .button-group.expanded .companies-accordion-close a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .button:last-child, .companies-accordion-close .button-group.expanded a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .button:last-child, .button-group.expanded .slider-articles .slick-next:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .button:last-child, .slider-articles .button-group.expanded .slick-next:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .button:last-child, .button-group.expanded [class*='page-pagination'] .button:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a:last-child, [class*='page-pagination'] .button-group.expanded .button:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a:last-child, .button-group.expanded [class*='page-pagination'] a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a:last-child, [class*='page-pagination'] .button-group.expanded a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a:last-child, .button-group.expanded .companies-accordion-close [class*='page-pagination'] a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a:last-child, [class*='page-pagination'] .companies-accordion-close .button-group.expanded a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a:last-child, .button-group.expanded .slider-articles [class*='page-pagination'] .slick-next:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a:last-child, [class*='page-pagination'] .button-group.expanded .slider-articles .slick-next:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a:last-child, .slider-articles .button-group.expanded [class*='page-pagination'] .slick-next:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a:last-child, [class*='page-pagination'] .slider-articles .button-group.expanded .slick-next:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a:last-child, .button-group.expanded .companies-accordion-close .button:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a:last-child, .companies-accordion-close .button-group.expanded .button:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a:last-child, .button-group.expanded [class*='page-pagination'] .companies-accordion-close a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a:last-child, .companies-accordion-close .button-group.expanded [class*='page-pagination'] a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a:last-child, [class*='page-pagination'] .button-group.expanded .companies-accordion-close a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a:last-child, .companies-accordion-close [class*='page-pagination'] .button-group.expanded a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a:last-child, .button-group.expanded .companies-accordion-close a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a:last-child, .companies-accordion-close .button-group.expanded a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a:last-child, .button-group.expanded .slider-articles .companies-accordion-close .slick-next:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a:last-child, .companies-accordion-close .button-group.expanded .slider-articles .slick-next:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a:last-child, .slider-articles .button-group.expanded .companies-accordion-close .slick-next:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a:last-child, .companies-accordion-close .slider-articles .button-group.expanded .slick-next:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a:last-child, .button-group.expanded .slider-articles .button:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .slick-next:last-child, .slider-articles .button-group.expanded .button:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .slick-next:last-child, .button-group.expanded [class*='page-pagination'] .slider-articles a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .slick-next:last-child, .slider-articles .button-group.expanded [class*='page-pagination'] a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .slick-next:last-child, [class*='page-pagination'] .button-group.expanded .slider-articles a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .slick-next:last-child, .slider-articles [class*='page-pagination'] .button-group.expanded a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .slick-next:last-child, .button-group.expanded .companies-accordion-close .slider-articles a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .slick-next:last-child, .slider-articles .button-group.expanded .companies-accordion-close a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .slick-next:last-child, .companies-accordion-close .button-group.expanded .slider-articles a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .slick-next:last-child, .slider-articles .companies-accordion-close .button-group.expanded a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .slick-next:last-child, .button-group.expanded .slider-articles .slick-next:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .slick-next:last-child, .slider-articles .button-group.expanded .slick-next:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .slick-next:last-child { margin-right: -6px; }
+.button-group.expanded .button:first-child:nth-last-child(5):last-child, .button-group.expanded .button:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .button:last-child { margin-right: -6px; }
 
-.button-group.expanded .button:first-child:nth-last-child(6), .button-group.expanded [class*='page-pagination'] a:first-child:nth-last-child(6), [class*='page-pagination'] .button-group.expanded a:first-child:nth-last-child(6), .button-group.expanded .companies-accordion-close a:first-child:nth-last-child(6), .companies-accordion-close .button-group.expanded a:first-child:nth-last-child(6), .button-group.expanded .slider-articles .slick-next:first-child:nth-last-child(6), .slider-articles .button-group.expanded .slick-next:first-child:nth-last-child(6), .button-group.expanded .button:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .button, .button-group.expanded [class*='page-pagination'] a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .button, [class*='page-pagination'] .button-group.expanded a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .button, .button-group.expanded .companies-accordion-close a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .button, .companies-accordion-close .button-group.expanded a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .button, .button-group.expanded .slider-articles .slick-next:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .button, .slider-articles .button-group.expanded .slick-next:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .button, .button-group.expanded [class*='page-pagination'] .button:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a, [class*='page-pagination'] .button-group.expanded .button:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a, .button-group.expanded [class*='page-pagination'] a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a, [class*='page-pagination'] .button-group.expanded a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a, .button-group.expanded .companies-accordion-close [class*='page-pagination'] a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a, [class*='page-pagination'] .companies-accordion-close .button-group.expanded a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a, .button-group.expanded .slider-articles [class*='page-pagination'] .slick-next:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a, [class*='page-pagination'] .button-group.expanded .slider-articles .slick-next:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a, .slider-articles .button-group.expanded [class*='page-pagination'] .slick-next:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a, [class*='page-pagination'] .slider-articles .button-group.expanded .slick-next:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a, .button-group.expanded .companies-accordion-close .button:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a, .companies-accordion-close .button-group.expanded .button:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a, .button-group.expanded [class*='page-pagination'] .companies-accordion-close a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a, .companies-accordion-close .button-group.expanded [class*='page-pagination'] a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a, [class*='page-pagination'] .button-group.expanded .companies-accordion-close a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a, .companies-accordion-close [class*='page-pagination'] .button-group.expanded a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a, .button-group.expanded .companies-accordion-close a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a, .companies-accordion-close .button-group.expanded a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a, .button-group.expanded .slider-articles .companies-accordion-close .slick-next:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a, .companies-accordion-close .button-group.expanded .slider-articles .slick-next:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a, .slider-articles .button-group.expanded .companies-accordion-close .slick-next:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a, .companies-accordion-close .slider-articles .button-group.expanded .slick-next:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a, .button-group.expanded .slider-articles .button:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .slick-next, .slider-articles .button-group.expanded .button:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .slick-next, .button-group.expanded [class*='page-pagination'] .slider-articles a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .slick-next, .slider-articles .button-group.expanded [class*='page-pagination'] a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .slick-next, [class*='page-pagination'] .button-group.expanded .slider-articles a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .slick-next, .slider-articles [class*='page-pagination'] .button-group.expanded a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .slick-next, .button-group.expanded .companies-accordion-close .slider-articles a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .slick-next, .slider-articles .button-group.expanded .companies-accordion-close a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .slick-next, .companies-accordion-close .button-group.expanded .slider-articles a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .slick-next, .slider-articles .companies-accordion-close .button-group.expanded a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .slick-next, .button-group.expanded .slider-articles .slick-next:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .slick-next, .slider-articles .button-group.expanded .slick-next:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .slick-next { display: inline-block; width: calc(16.66667% - 1px); margin-right: 1px; }
+.button-group.expanded .button:first-child:nth-last-child(6), .button-group.expanded .button:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .button { display: inline-block; width: calc(16.66667% - 1px); margin-right: 1px; }
 
-.button-group.expanded .button:first-child:nth-last-child(6):last-child, .button-group.expanded [class*='page-pagination'] a:first-child:nth-last-child(6):last-child, [class*='page-pagination'] .button-group.expanded a:first-child:nth-last-child(6):last-child, .button-group.expanded .companies-accordion-close a:first-child:nth-last-child(6):last-child, .companies-accordion-close .button-group.expanded a:first-child:nth-last-child(6):last-child, .button-group.expanded .slider-articles .slick-next:first-child:nth-last-child(6):last-child, .slider-articles .button-group.expanded .slick-next:first-child:nth-last-child(6):last-child, .button-group.expanded .button:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .button:last-child, .button-group.expanded [class*='page-pagination'] a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .button:last-child, [class*='page-pagination'] .button-group.expanded a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .button:last-child, .button-group.expanded .companies-accordion-close a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .button:last-child, .companies-accordion-close .button-group.expanded a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .button:last-child, .button-group.expanded .slider-articles .slick-next:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .button:last-child, .slider-articles .button-group.expanded .slick-next:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .button:last-child, .button-group.expanded [class*='page-pagination'] .button:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a:last-child, [class*='page-pagination'] .button-group.expanded .button:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a:last-child, .button-group.expanded [class*='page-pagination'] a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a:last-child, [class*='page-pagination'] .button-group.expanded a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a:last-child, .button-group.expanded .companies-accordion-close [class*='page-pagination'] a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a:last-child, [class*='page-pagination'] .companies-accordion-close .button-group.expanded a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a:last-child, .button-group.expanded .slider-articles [class*='page-pagination'] .slick-next:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a:last-child, [class*='page-pagination'] .button-group.expanded .slider-articles .slick-next:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a:last-child, .slider-articles .button-group.expanded [class*='page-pagination'] .slick-next:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a:last-child, [class*='page-pagination'] .slider-articles .button-group.expanded .slick-next:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a:last-child, .button-group.expanded .companies-accordion-close .button:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a:last-child, .companies-accordion-close .button-group.expanded .button:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a:last-child, .button-group.expanded [class*='page-pagination'] .companies-accordion-close a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a:last-child, .companies-accordion-close .button-group.expanded [class*='page-pagination'] a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a:last-child, [class*='page-pagination'] .button-group.expanded .companies-accordion-close a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a:last-child, .companies-accordion-close [class*='page-pagination'] .button-group.expanded a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a:last-child, .button-group.expanded .companies-accordion-close a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a:last-child, .companies-accordion-close .button-group.expanded a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a:last-child, .button-group.expanded .slider-articles .companies-accordion-close .slick-next:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a:last-child, .companies-accordion-close .button-group.expanded .slider-articles .slick-next:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a:last-child, .slider-articles .button-group.expanded .companies-accordion-close .slick-next:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a:last-child, .companies-accordion-close .slider-articles .button-group.expanded .slick-next:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a:last-child, .button-group.expanded .slider-articles .button:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .slick-next:last-child, .slider-articles .button-group.expanded .button:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .slick-next:last-child, .button-group.expanded [class*='page-pagination'] .slider-articles a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .slick-next:last-child, .slider-articles .button-group.expanded [class*='page-pagination'] a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .slick-next:last-child, [class*='page-pagination'] .button-group.expanded .slider-articles a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .slick-next:last-child, .slider-articles [class*='page-pagination'] .button-group.expanded a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .slick-next:last-child, .button-group.expanded .companies-accordion-close .slider-articles a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .slick-next:last-child, .slider-articles .button-group.expanded .companies-accordion-close a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .slick-next:last-child, .companies-accordion-close .button-group.expanded .slider-articles a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .slick-next:last-child, .slider-articles .companies-accordion-close .button-group.expanded a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .slick-next:last-child, .button-group.expanded .slider-articles .slick-next:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .slick-next:last-child, .slider-articles .button-group.expanded .slick-next:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .slick-next:last-child { margin-right: -6px; }
+.button-group.expanded .button:first-child:nth-last-child(6):last-child, .button-group.expanded .button:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .button:last-child { margin-right: -6px; }
 
-.button-group.primary .button, .button-group.primary [class*='page-pagination'] a, [class*='page-pagination'] .button-group.primary a, .button-group.primary .companies-accordion-close a, .companies-accordion-close .button-group.primary a, .button-group.primary .slider-articles .slick-next, .slider-articles .button-group.primary .slick-next { background-color: #1779ba; color: #fefefe; }
+.button-group.primary .button { background-color: #1779ba; color: #fefefe; }
 
-.button-group.primary .button:hover, .button-group.primary [class*='page-pagination'] a:hover, [class*='page-pagination'] .button-group.primary a:hover, .button-group.primary .companies-accordion-close a:hover, .companies-accordion-close .button-group.primary a:hover, .button-group.primary .slider-articles .slick-next:hover, .slider-articles .button-group.primary .slick-next:hover, .button-group.primary .button:focus, .button-group.primary [class*='page-pagination'] a:focus, [class*='page-pagination'] .button-group.primary a:focus, .button-group.primary .companies-accordion-close a:focus, .companies-accordion-close .button-group.primary a:focus, .button-group.primary .slider-articles .slick-next:focus, .slider-articles .button-group.primary .slick-next:focus { background-color: #126195; color: #fefefe; }
+.button-group.primary .button:hover, .button-group.primary .button:focus { background-color: #126195; color: #fefefe; }
 
-.button-group.secondary .button, .button-group.secondary [class*='page-pagination'] a, [class*='page-pagination'] .button-group.secondary a, .button-group.secondary .companies-accordion-close a, .companies-accordion-close .button-group.secondary a, .button-group.secondary .slider-articles .slick-next, .slider-articles .button-group.secondary .slick-next { background-color: #767676; color: #fefefe; }
+.button-group.secondary .button { background-color: #767676; color: #fefefe; }
 
-.button-group.secondary .button:hover, .button-group.secondary [class*='page-pagination'] a:hover, [class*='page-pagination'] .button-group.secondary a:hover, .button-group.secondary .companies-accordion-close a:hover, .companies-accordion-close .button-group.secondary a:hover, .button-group.secondary .slider-articles .slick-next:hover, .slider-articles .button-group.secondary .slick-next:hover, .button-group.secondary .button:focus, .button-group.secondary [class*='page-pagination'] a:focus, [class*='page-pagination'] .button-group.secondary a:focus, .button-group.secondary .companies-accordion-close a:focus, .companies-accordion-close .button-group.secondary a:focus, .button-group.secondary .slider-articles .slick-next:focus, .slider-articles .button-group.secondary .slick-next:focus { background-color: #5e5e5e; color: #fefefe; }
+.button-group.secondary .button:hover, .button-group.secondary .button:focus { background-color: #5e5e5e; color: #fefefe; }
 
-.button-group.success .button, .button-group.success [class*='page-pagination'] a, [class*='page-pagination'] .button-group.success a, .button-group.success .companies-accordion-close a, .companies-accordion-close .button-group.success a, .button-group.success .slider-articles .slick-next, .slider-articles .button-group.success .slick-next { background-color: #3adb76; color: #0a0a0a; }
+.button-group.success .button { background-color: #3adb76; color: #0a0a0a; }
 
-.button-group.success .button:hover, .button-group.success [class*='page-pagination'] a:hover, [class*='page-pagination'] .button-group.success a:hover, .button-group.success .companies-accordion-close a:hover, .companies-accordion-close .button-group.success a:hover, .button-group.success .slider-articles .slick-next:hover, .slider-articles .button-group.success .slick-next:hover, .button-group.success .button:focus, .button-group.success [class*='page-pagination'] a:focus, [class*='page-pagination'] .button-group.success a:focus, .button-group.success .companies-accordion-close a:focus, .companies-accordion-close .button-group.success a:focus, .button-group.success .slider-articles .slick-next:focus, .slider-articles .button-group.success .slick-next:focus { background-color: #22bb5b; color: #0a0a0a; }
+.button-group.success .button:hover, .button-group.success .button:focus { background-color: #22bb5b; color: #0a0a0a; }
 
-.button-group.warning .button, .button-group.warning [class*='page-pagination'] a, [class*='page-pagination'] .button-group.warning a, .button-group.warning .companies-accordion-close a, .companies-accordion-close .button-group.warning a, .button-group.warning .slider-articles .slick-next, .slider-articles .button-group.warning .slick-next { background-color: #ffae00; color: #0a0a0a; }
+.button-group.warning .button { background-color: #ffae00; color: #0a0a0a; }
 
-.button-group.warning .button:hover, .button-group.warning [class*='page-pagination'] a:hover, [class*='page-pagination'] .button-group.warning a:hover, .button-group.warning .companies-accordion-close a:hover, .companies-accordion-close .button-group.warning a:hover, .button-group.warning .slider-articles .slick-next:hover, .slider-articles .button-group.warning .slick-next:hover, .button-group.warning .button:focus, .button-group.warning [class*='page-pagination'] a:focus, [class*='page-pagination'] .button-group.warning a:focus, .button-group.warning .companies-accordion-close a:focus, .companies-accordion-close .button-group.warning a:focus, .button-group.warning .slider-articles .slick-next:focus, .slider-articles .button-group.warning .slick-next:focus { background-color: #cc8b00; color: #0a0a0a; }
+.button-group.warning .button:hover, .button-group.warning .button:focus { background-color: #cc8b00; color: #0a0a0a; }
 
-.button-group.alert .button, .button-group.alert [class*='page-pagination'] a, [class*='page-pagination'] .button-group.alert a, .button-group.alert .companies-accordion-close a, .companies-accordion-close .button-group.alert a, .button-group.alert .slider-articles .slick-next, .slider-articles .button-group.alert .slick-next { background-color: #cc4b37; color: #fefefe; }
+.button-group.alert .button { background-color: #cc4b37; color: #fefefe; }
 
-.button-group.alert .button:hover, .button-group.alert [class*='page-pagination'] a:hover, [class*='page-pagination'] .button-group.alert a:hover, .button-group.alert .companies-accordion-close a:hover, .companies-accordion-close .button-group.alert a:hover, .button-group.alert .slider-articles .slick-next:hover, .slider-articles .button-group.alert .slick-next:hover, .button-group.alert .button:focus, .button-group.alert [class*='page-pagination'] a:focus, [class*='page-pagination'] .button-group.alert a:focus, .button-group.alert .companies-accordion-close a:focus, .companies-accordion-close .button-group.alert a:focus, .button-group.alert .slider-articles .slick-next:focus, .slider-articles .button-group.alert .slick-next:focus { background-color: #a53b2a; color: #fefefe; }
+.button-group.alert .button:hover, .button-group.alert .button:focus { background-color: #a53b2a; color: #fefefe; }
 
-.button-group.stacked .button, .button-group.stacked [class*='page-pagination'] a, [class*='page-pagination'] .button-group.stacked a, .button-group.stacked .companies-accordion-close a, .companies-accordion-close .button-group.stacked a, .button-group.stacked .slider-articles .slick-next, .slider-articles .button-group.stacked .slick-next, .button-group.stacked-for-small .button, .button-group.stacked-for-small [class*='page-pagination'] a, [class*='page-pagination'] .button-group.stacked-for-small a, .button-group.stacked-for-small .companies-accordion-close a, .companies-accordion-close .button-group.stacked-for-small a, .button-group.stacked-for-small .slider-articles .slick-next, .slider-articles .button-group.stacked-for-small .slick-next, .button-group.stacked-for-medium .button, .button-group.stacked-for-medium [class*='page-pagination'] a, [class*='page-pagination'] .button-group.stacked-for-medium a, .button-group.stacked-for-medium .companies-accordion-close a, .companies-accordion-close .button-group.stacked-for-medium a, .button-group.stacked-for-medium .slider-articles .slick-next, .slider-articles .button-group.stacked-for-medium .slick-next { width: 100%; }
+.button-group.stacked .button, .button-group.stacked-for-small .button, .button-group.stacked-for-medium .button { width: 100%; }
 
-.button-group.stacked .button:last-child, .button-group.stacked [class*='page-pagination'] a:last-child, [class*='page-pagination'] .button-group.stacked a:last-child, .button-group.stacked .companies-accordion-close a:last-child, .companies-accordion-close .button-group.stacked a:last-child, .button-group.stacked .slider-articles .slick-next:last-child, .slider-articles .button-group.stacked .slick-next:last-child, .button-group.stacked-for-small .button:last-child, .button-group.stacked-for-small [class*='page-pagination'] a:last-child, [class*='page-pagination'] .button-group.stacked-for-small a:last-child, .button-group.stacked-for-small .companies-accordion-close a:last-child, .companies-accordion-close .button-group.stacked-for-small a:last-child, .button-group.stacked-for-small .slider-articles .slick-next:last-child, .slider-articles .button-group.stacked-for-small .slick-next:last-child, .button-group.stacked-for-medium .button:last-child, .button-group.stacked-for-medium [class*='page-pagination'] a:last-child, [class*='page-pagination'] .button-group.stacked-for-medium a:last-child, .button-group.stacked-for-medium .companies-accordion-close a:last-child, .companies-accordion-close .button-group.stacked-for-medium a:last-child, .button-group.stacked-for-medium .slider-articles .slick-next:last-child, .slider-articles .button-group.stacked-for-medium .slick-next:last-child { margin-bottom: 0; }
+.button-group.stacked .button:last-child, .button-group.stacked-for-small .button:last-child, .button-group.stacked-for-medium .button:last-child { margin-bottom: 0; }
 
-@media print, screen and (min-width: 40em) { .button-group.stacked-for-small .button, .button-group.stacked-for-small [class*='page-pagination'] a, [class*='page-pagination'] .button-group.stacked-for-small a, .button-group.stacked-for-small .companies-accordion-close a, .companies-accordion-close .button-group.stacked-for-small a, .button-group.stacked-for-small .slider-articles .slick-next, .slider-articles .button-group.stacked-for-small .slick-next { width: auto; margin-bottom: 0; } }
+@media print, screen and (min-width: 40em) { .button-group.stacked-for-small .button { width: auto; margin-bottom: 0; } }
 
-@media print, screen and (min-width: 64em) { .button-group.stacked-for-medium .button, .button-group.stacked-for-medium [class*='page-pagination'] a, [class*='page-pagination'] .button-group.stacked-for-medium a, .button-group.stacked-for-medium .companies-accordion-close a, .companies-accordion-close .button-group.stacked-for-medium a, .button-group.stacked-for-medium .slider-articles .slick-next, .slider-articles .button-group.stacked-for-medium .slick-next { width: auto; margin-bottom: 0; } }
+@media print, screen and (min-width: 64em) { .button-group.stacked-for-medium .button { width: auto; margin-bottom: 0; } }
 
 @media screen and (max-width: 39.9375em) { .button-group.stacked-for-small.expanded { display: block; }
-  .button-group.stacked-for-small.expanded .button, .button-group.stacked-for-small.expanded [class*='page-pagination'] a, [class*='page-pagination'] .button-group.stacked-for-small.expanded a, .button-group.stacked-for-small.expanded .companies-accordion-close a, .companies-accordion-close .button-group.stacked-for-small.expanded a, .button-group.stacked-for-small.expanded .slider-articles .slick-next, .slider-articles .button-group.stacked-for-small.expanded .slick-next { display: block; margin-right: 0; } }
+  .button-group.stacked-for-small.expanded .button { display: block; margin-right: 0; } }
 
 .callout { position: relative; margin: 0 0 1rem 0; padding: 1rem; border: 1px solid rgba(10, 10, 10, 0.25); border-radius: 0; background-color: white; color: #0a0a0a; }
 
@@ -2076,7 +2076,7 @@ a.thumbnail image { box-shadow: none; }
 
 .top-bar .input-group-field { width: 100%; margin-right: 0; }
 
-.top-bar input.button, .top-bar .slider-articles input.slick-next, .slider-articles .top-bar input.slick-next { width: auto; }
+.top-bar input.button { width: auto; }
 
 .top-bar .top-bar-left, .top-bar .top-bar-right { width: 100%; }
 
@@ -2410,454 +2410,7 @@ html, body, .page-container { height: 100%; }
 
 .page-content { height: 100%; }
 
-@media screen and (max-width: 39.9375em) { body { font-size: .9375rem; } }
-
-p:last-child { margin-bottom: 0; }
-
-.alignleft { float: left; margin: 0 2rem 3rem 0; }
-
-.alignright { float: right; margin: 0 0 3rem 2rem; }
-
-.button, [class*='page-pagination'] a, .companies-accordion-close a, .slider-articles .slick-next { outline: none; }
-
-.flexible-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; }
-
-.flexible-container iframe, .flexible-container object, .flexible-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
-
-.page-header { background: #fff; box-shadow: 3px 3px 8px rgba(98, 98, 98, 0.1); }
-
-.home .page-header { background: transparent; box-shadow: none; }
-
-.accordion { margin: 40px 0 0 0; }
-
-.accordion li .accordion-title { border: none; color: black; padding: 0.5rem 0rem; font-size: 20px; }
-
-.accordion li .accordion-title h3 { margin: 0 0px 0 0; font-size: 22px; }
-
-.accordion li .accordion-title:before { display: none; }
-
-.accordion li .accordion-title:hover, .accordion li .accordion-title:active, .accordion li .accordion-title:focus { background-color: transparent; }
-
-.accordion li .accordion-title .title-zip-city { display: block; font-size: 14.5px; margin: 5px 0 0 35px; }
-
-.accordion li:last-child:not(.is-active) > .accordion-title { border: none; }
-
-.accordion li .accordion-content { border: none; }
-
-.accordion li.is-active { background: transparent; }
-
-.accordion li.is-active h3 { color: black; }
-
-.main-slider { height: 500px; height: inherit; }
-
-.main-slider .main-slider-container { height: 100%; padding: 0; }
-
-.main-slider .main-slider-container ul.slick-dots { position: absolute; right: 22px; top: 200px; left: inherit; }
-
-.main-slider .main-slider-container ul.slick-dots li { display: block; }
-
-.main-slider .main-slider-container ul.slick-dots li button { border-radius: 50%; width: 23px; height: 23px; margin: 7.5px 0; background-color: #eae5de; cursor: pointer; }
-
-.main-slider .main-slider-container ul.slick-dots li button:hover { background-color: blue; }
-
-.main-slider .main-slider-container ul.slick-dots li.slick-active button { background-color: blue; }
-
-@media screen and (max-width: 39.9375em) { .main-slider .main-slider-container ul.slick-dots { right: 0; top: inherit; bottom: 10px; left: 0; display: table; margin: 0 auto; float: none; text-align: center; }
-  .main-slider .main-slider-container ul.slick-dots li { margin: 0 5px; display: inline-block; } }
-
-.main-slider .main-slider-container .slide-content { height: 100%; position: relative; background-color: #0163aa; padding-left: 15px; }
-
-@media print, screen and (min-width: 64em) { .main-slider .main-slider-container .slide-content { padding-left: 100px; } }
-
-.main-slider .main-slider-container .slide-content .arrow { width: inherit; overflow: hidden; position: absolute; top: -50px; left: 0px; bottom: 0; height: 60px; right: 0; }
-
-.main-slider .main-slider-container .slide-content .arrow:before { position: absolute; top: -55px; left: 50%; content: ""; height: 105px; width: 105px; background: transparent; -webkit-transform-origin: 0% 100%; transform-origin: 0% 100%; -webkit-transform: rotate(-45deg); transform: rotate(-45deg); box-shadow: 0 0 0 500px #0163aa; }
-
-@media print, screen and (min-width: 40em) { .main-slider .main-slider-container .slide-content .arrow { width: 100px; top: 0; left: -51px; height: inherit; bottom: 0; right: inherit; }
-  .main-slider .main-slider-container .slide-content .arrow:before { height: 140px; width: 70px; -webkit-transform: rotate(-45deg); transform: rotate(-45deg); left: 0; top: 110px; } }
-
-.main-slider .main-slider-container .slide-content .slide-description { max-width: 355px; padding: 10px 60px 0 0; position: relative; margin: 20px 10px 0px 0px; }
-
-.main-slider .main-slider-container .slide-content .slide-description * { color: white; line-height: 1.3; letter-spacing: 2.1px; }
-
-.main-slider .main-slider-container .slide-content .slide-description * { font-size: 35px; }
-
-@media print, screen and (min-width: 40em) { .main-slider .main-slider-container .slide-content .slide-description * { font-size: 30px; } }
-
-@media print, screen and (min-width: 64em) { .main-slider .main-slider-container .slide-content .slide-description { margin: 139px 10px 0px 0px; }
-  .main-slider .main-slider-container .slide-content .slide-description * { font-size: 38px; } }
-
-.main-slider .main-slider-container .slide-content .slide-description:after { content: ''; display: block; background-color: white; width: 62px; height: 3px; margin: 34px 0 20px 0; }
-
-.main-slider .main-slider-container .slide-content .slide-author { position: relative; padding: 0 0 50px 0; }
-
-.main-slider .main-slider-container .slide-content .slide-author * { font-size: 29px; color: white; }
-
-.main-slider .main-slider-container .slick-slide { height: inherit; }
-
-@media print, screen and (min-width: 40em) { .main-slider .main-slider-container .slick-slide { height: 500px; } }
-
-.main-slider .main-slider-container .slide-img { height: 400px; padding: 0; }
-
-@media print, screen and (min-width: 40em) { .main-slider .main-slider-container .slide-img { height: 100%; } }
-
-.main-slider .main-slider-container .slide-img div { height: 100%; background-repeat: no-repeat; background-size: cover; background-position: center; }
-
-div.wpcf7 .ajax-loader { margin: 2px 0 0 4px; vertical-align: super; }
-
-div span.wpcf7-not-valid-tip { bottom: -27px; }
-
-.searchandfilter { margin: 0 0 2em 0; margin: 0 0 5em 0; }
-
-.searchandfilter ul { margin: 0; }
-
-.searchandfilter [type='submit'] { padding: 0; color: #0163aa; background: transparent; border-radius: 0; border: none; outline: none; text-decoration: underline; }
-
-.searchandfilter .cat-item { margin: 0.5em 0; }
-
-.searchandfilter .cat-item label { position: relative; padding: 0.23em 0 0.33em 2.85em; cursor: pointer; margin: 0; }
-
-.searchandfilter .cat-item label:before { content: ''; position: absolute; left: 0; top: 0; width: 1.75em; height: 1.75em; border: 1px solid #ccc; color: #0163aa; background: #fff; border-radius: 2px; box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.15); }
-
-.searchandfilter .cat-item label:hover:before { border: 2px solid #0163aa; }
-
-.searchandfilter .cat-item label:after { content: "\f00c"; position: absolute; top: .32em; left: .3em; font-size: 1.3em; line-height: 0.8; color: #f18700; transition: all .2s; font-family: 'fontawesome'; font-weight: 400; font-size: 16px; opacity: 0; }
-
-.searchandfilter .cat-item label.checked:after { opacity: 1; -webkit-transform: scale(1); transform: scale(1); }
-
-.searchandfilter .cat-item label input { position: absolute; opacity: 0; left: 0; right: 0; bottom: 0; top: 0; margin: 0; width: 100%; height: 100%; cursor: pointer; }
-
-@media print, screen and (min-width: 64em) { .registration-form-event { width: 65%; } }
-
-.registration-form-event .wpcf7-form-control-wrap textarea { padding: 1rem; }
-
-.registration-form-event .wpcf7-form { /* checkbox aspect */ /* checked mark aspect */ /* checked mark aspect changes */ /* disabled checkbox */ /* accessibility */ /* hover style just for information */ }
-
-.registration-form-event .wpcf7-form hr { margin: 1.65rem auto; }
-
-.registration-form-event .wpcf7-form span.wpcf7-list-item { margin: 0 0 1.5em 0; display: block; }
-
-.registration-form-event .wpcf7-form [type="checkbox"]:not(:checked), .registration-form-event .wpcf7-form [type="radio"]:not(:checked), .registration-form-event .wpcf7-form [type="checkbox"]:checked, .registration-form-event .wpcf7-form [type="radio"]:checked { position: absolute; left: -9999px; }
-
-.registration-form-event .wpcf7-form [type="checkbox"]:not(:checked) + [class^="wpcf7-list-item"], .registration-form-event .wpcf7-form [type="radio"]:not(:checked) + [class^="wpcf7-list-item"], .registration-form-event .wpcf7-form [type="checkbox"]:checked + [class^="wpcf7-list-item"], .registration-form-event .wpcf7-form [type="radio"]:checked + [class^="wpcf7-list-item"] { position: relative; padding: 0.23em 0 0 2.85em; cursor: pointer; margin: 0; }
-
-.registration-form-event .wpcf7-form [type="checkbox"]:not(:checked) + [class^="wpcf7-list-item"]:before, .registration-form-event .wpcf7-form [type="radio"]:not(:checked) + [class^="wpcf7-list-item"]:before, .registration-form-event .wpcf7-form [type="checkbox"]:checked + [class^="wpcf7-list-item"]:before, .registration-form-event .wpcf7-form [type="radio"]:checked + [class^="wpcf7-list-item"]:before { content: ''; position: absolute; left: 0; top: 0; width: 1.75em; height: 1.75em; border: 1px solid #ccc; background: #fff; border-radius: 2px; box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.15); }
-
-.registration-form-event .wpcf7-form [type="radio"]:not(:checked) + [class^="wpcf7-list-item"]:before, .registration-form-event .wpcf7-form [type="radio"]:checked + [class^="wpcf7-list-item"]:before { border-radius: 50%; }
-
-.registration-form-event .wpcf7-form [type="checkbox"]:not(:checked) + [class^="wpcf7-list-item"]:after, .registration-form-event .wpcf7-form [type="radio"]:not(:checked) + [class^="wpcf7-list-item"]:after, .registration-form-event .wpcf7-form [type="checkbox"]:checked + [class^="wpcf7-list-item"]:after, .registration-form-event .wpcf7-form [type="radio"]:checked + [class^="wpcf7-list-item"]:after { content: ""; position: absolute; top: .35em; left: .37em; font-size: 1.3em; background: #0163aa; line-height: 0.8; width: 15px; height: 15px; border-radius: 50%; transition: all .2s; font-family: 'fontawesome'; font-weight: 400; font-size: 16px; }
-
-.registration-form-event .wpcf7-form [type="checkbox"]:not(:checked) + [class^="wpcf7-list-item"]:after, .registration-form-event .wpcf7-form [type="radio"]:not(:checked) + [class^="wpcf7-list-item"]:after, .registration-form-event .wpcf7-form [type="checkbox"]:checked + [class^="wpcf7-list-item"]:after, .registration-form-event .wpcf7-form [type="radio"]:checked + [class^="wpcf7-list-item"]:after { content: "\f00c"; position: absolute; top: .32em; left: .3em; font-size: 1.3em; line-height: 0.8; color: #0163aa; transition: all .2s; font-family: 'fontawesome'; font-weight: 400; font-size: 16px; }
-
-.registration-form-event .wpcf7-form [type="radio"]:not(:checked) + [class^="wpcf7-list-item"]:after, .registration-form-event .wpcf7-form [type="radio"]:checked + [class^="wpcf7-list-item"]:after { color: transparent; }
-
-.registration-form-event .wpcf7-form [type="checkbox"]:not(:checked) + [class^="wpcf7-list-item"]:after, .registration-form-event .wpcf7-form [type="checkbox"]:checked + [class^="wpcf7-list-item"]:after { background: transparent; }
-
-.registration-form-event .wpcf7-form [type="checkbox"]:not(:checked) + [class^="wpcf7-list-item"]:after, .registration-form-event .wpcf7-form [type="radio"]:not(:checked) + [class^="wpcf7-list-item"]:after { opacity: 0; -webkit-transform: scale(0); transform: scale(0); }
-
-.registration-form-event .wpcf7-form [type="checkbox"]:checked + [class^="wpcf7-list-item"]:after, .registration-form-event .wpcf7-form [type="radio"]:checked + [class^="wpcf7-list-item"]:after { opacity: 1; -webkit-transform: scale(1); transform: scale(1); }
-
-.registration-form-event .wpcf7-form [type="checkbox"]:disabled:not(:checked) + [class^="wpcf7-list-item"]:before, .registration-form-event .wpcf7-form [type="checkbox"]:disabled:checked + [class^="wpcf7-list-item"]:before, .registration-form-event .wpcf7-form [type="radio"]:disabled:not(:checked) + [class^="wpcf7-list-item"]:before, .registration-form-event .wpcf7-form [type="radio"]:disabled:checked + [class^="wpcf7-list-item"]:before { box-shadow: none; border-color: #bbb; background-color: #ddd; }
-
-.registration-form-event .wpcf7-form [type="checkbox"]:disabled:checked + [class^="wpcf7-list-item"]:after, .registration-form-event .wpcf7-form [type="radio"]:disabled:checked + [class^="wpcf7-list-item"]:after { color: #999; }
-
-.registration-form-event .wpcf7-form [type="checkbox"]:disabled + [class^="wpcf7-list-item"], .registration-form-event .wpcf7-form [type="radio"]:disabled + [class^="wpcf7-list-item"] { color: #aaa; }
-
-.registration-form-event .wpcf7-form [type="checkbox"]:checked:focus + [class^="wpcf7-list-item"]:before, .registration-form-event .wpcf7-form [type="radio"]:checked:focus + [class^="wpcf7-list-item"]:before, .registration-form-event .wpcf7-form [type="checkbox"]:not(:checked):focus + [class^="wpcf7-list-item"]:before { border: 2px solid #0163aa; }
-
-.registration-form-event .wpcf7-form .wpcf7-list-item-label:hover:before { border: 2px solid #0163aa !important; }
-
-.top-left { float: left; }
-
-@media screen and (min-width: 75em) { .top-left { margin: 0 0px 0 -20px; } }
-
-.top-right { float: right; margin: 0 0px 0 0; }
-
-@media screen and (min-width: 75em) { .top-right { margin: 0 -20px 0 0; } }
-
-.page-template-front-page .top-right { margin: 15px 15px 0 0; }
-
-@media print, screen and (min-width: 64em) { .page-template-front-page .top-right { margin: 45px 15px 0 0; } }
-
-.menu.header ul { margin: 20px 0; list-style: none; }
-
-.menu.header li { display: inline-block; }
-
-.menu.header a { display: inline-block; padding: 7px 20px; color: inherit; }
-
-.menu.header a:hover { color: #0163aa; }
-
-.page-content-inside { padding: 80px 0 60px; }
-
-.home .page-content-inside { padding: 0; }
-
-@media print, screen and (min-width: 40em) { .page-content-inside { padding: 80px 0 120px; } }
-
-.page-content-inside .small-breadcrumb { background: #e6e6e6; display: table; padding: 4px 15px 10px 12px; border-radius: 5px; margin: -45px 0 10px 15px; }
-
-@media print, screen and (min-width: 40em) { .page-content-inside .small-breadcrumb { margin: 0 0 40px 0; } }
-
-.page-content-inside .small-breadcrumb a { position: relative; display: inline-block; margin: 0 12px  2px 10px; line-height: normal; }
-
-.page-content-inside .small-breadcrumb a:before { width: 100%; height: 2px; background: #0163aa; content: ''; position: absolute; bottom: 0; left: 0; }
-
-.page-content-inside .small-breadcrumb .start-breadcrumb:after { content: ''; width: 2px; background: gray; height: 29px; margin: 0 12px 0 8px; vertical-align: sub; display: inline-block; -webkit-transform: rotate(15deg) translateY(5px); transform: rotate(15deg) translateY(5px); }
-
-.page-content-inside .small-breadcrumb .end-breadcrumb { color: #8a8a8a; }
-
-.header-line, .header-content h1, .header-content h2 { position: relative; padding: 0 0 1rem; text-transform: uppercase; font-weight: 600; }
-
-.header-line:after, .header-content h1:after, .header-content h2:after { content: ''; border-top: solid 3px #f18700; height: 0; width: 40px; position: absolute; top: 100%; left: 0; }
-
-.header-content { padding: 0 0 1.2rem 0; }
-
-@media print, screen and (min-width: 64em) { .header-content { padding: 0 25% 3.5rem 0; } }
-
-.header-content h1, .header-content h2 { font-weight: bold; padding: 0 0 1.5rem; margin: 0 0 0 25px; }
-
-@media print, screen and (min-width: 64em) { .header-content h1, .header-content h2 { margin: 0 0 0 0px; } }
-
-.header-content p { font-size: 1rem; margin: 0.5em 0 0 0; }
-
-@media print, screen and (min-width: 40em) { .header-content p { font-size: 1.25rem; } }
-
-.header-content h1 + p:not(.entry-date) { padding-top: 40px; }
-
-.box-design { padding: 46px 15px 70px 15px; position: relative; }
-
-@media print, screen and (min-width: 40em) { .box-design { padding: 70px 15px 130px; } }
-
-.box-design:before, .box-design:after { content: ''; border: 4px solid #f18700; position: absolute; top: 0; left: 25px; background: #f18700; display: block; }
-
-@media screen and (min-width: 75em) { .box-design:before, .box-design:after { left: 0; border: solid 3px #f18700; } }
-
-.box-design:before { width: 70px; }
-
-.box-design:after { height: 70px; }
-
-@media print, screen and (min-width: 40em) { .single .box-design { padding-right: 100px; } }
-
-.box-design.opposite { padding: 70px 0 100px 0; }
-
-.box-design.opposite:before, .box-design.opposite:after { left: 0; }
-
-@media print, screen and (min-width: 40em) { .box-design.opposite { padding: 70px 0 130px 0; }
-  .box-design.opposite:before, .box-design.opposite:after { left: auto; right: 0; } }
-
-h3 a { color: inherit; }
-
-.news-container .box-1 { margin: 0 0 50px; }
-
-.box-1 figure { height: 0; padding-bottom: 52.8%; position: relative; }
-
-.box-1 img { position: absolute; top: 0; left: 0; width: 100%; }
-
-.box-1 .entry-date { margin: 0; }
-
-.box-1 .entry-excerpt { margin: 0 0 1rem; }
-
-.box-1 > a { text-decoration: underline; }
-
-.box-2 { border-bottom: dotted 1px #000; padding: 0 0 30px; margin-bottom: 30px; }
-
-.box-2:last-child { border: none; margin-bottom: 0; }
-
-.box-2 .entry-excerpt { margin: 0 0 1rem; }
-
-.box-2 .column > a, .box-2 .columns > a { text-decoration: underline; }
-
-.box-3 .entry-header { margin: 0 0 .7rem; }
-
-.box-3 h3 { margin: 0; }
-
-.box-3-container { padding-bottom: 30px; position: relative; top: -20px; }
-
-.box-3-container .header-line, .box-3-container .header-content h1, .header-content .box-3-container h1, .box-3-container .header-content h2, .header-content .box-3-container h2 { margin: 0 20px 40px; }
-
-@media print, screen and (min-width: 40em) { .box-3-container { top: 0; }
-  .box-3-container .header-line, .box-3-container .header-content h1, .header-content .box-3-container h1, .box-3-container .header-content h2, .header-content .box-3-container h2 { margin: 0 0 20px 0px; } }
-
-.box-3-container .slick-dots { position: absolute; top: 50%; right: 10px; -webkit-transform: translateY(-100%); transform: translateY(-100%); display: none !important; }
-
-@media print, screen and (min-width: 40em) { .box-3-container .slick-dots { right: 15px; display: block; } }
-
-.box-3-container button { border-radius: 20px; width: 20px; height: 20px; margin: 0 0 5px; background-color: #2e2f32; }
-
-.box-3-container .slick-active button { background-color: #0163aa; }
-
-.section-news { padding: 50px 15px 0; }
-
-@media screen and (min-width: 75em) { .section-news { padding: 100px 0 0; } }
-
-.section-termine-featured { background-size: cover; background-position: 50% 400px; background-repeat: no-repeat; }
-
-@media print, screen and (min-width: 40em) { .section-termine-featured { background-position: 50% 50%; padding: 60px 0; margin: 0 0 60px; } }
-
-.section-termine-list { padding: 0 0 100px; }
-
-.section-termine-list .lnk-event { padding: 12px 20px; border-radius: 5px; display: block; color: #000; }
-
-@media screen and (max-width: 63.9375em) { .section-termine-list .row:nth-child(1) > .columns:first-child, .section-termine-list .row:nth-child(2) > .columns:first-child { background: #eaeaea; }
-  .section-termine-list .row:nth-child(2) > div.columns:last-child { display: none; }
-  .section-termine-list .row:nth-child(3) { display: none; } }
-
-@media print, screen and (min-width: 40em) { .section-termine-list .row:nth-of-type(2n+1) .lnk-event { background: #eaeaea; } }
-
-.section-termine-list .row:last-child { padding: 50px 0 0; }
-
-.section-news-featured { padding-bottom: 70px; }
-
-.section-news-featured .box-design { padding-bottom: 0; }
-
-.section-news-featured .special-news-item h3 { margin: 30px 0 0 0; }
-
-@media print, screen and (min-width: 40em) { .section-news-featured .special-news-item h3 { margin: 0 0 1rem 0; } }
-
-.welcome-video { background: #eaeaea; }
-
-.welcome-video .header-content { padding: 50px 15px 80px; }
-
-@media print, screen and (min-width: 40em) { .welcome-video .header-content { padding: 80px 0 1.2rem 0; } }
-
-.welcome-video > .row { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; }
-
-.welcome-video > .row > div { -webkit-box-ordinal-group: 2; -ms-flex-order: 1; order: 1; }
-
-.welcome-video > .row > div:last-child { -webkit-box-ordinal-group: 1; -ms-flex-order: 0; order: 0; width: 100%; height: 450px; }
-
-@media print, screen and (min-width: 40em) { .welcome-video > .row { display: block; }
-  .welcome-video > .row > div:last-child { width: 41.66667%; float: left; padding-right: 0.625rem; padding-left: 0.625rem; } }
-
-@media print, screen and (min-width: 40em) and (min-width: 40em) { .welcome-video > .row > div:last-child { padding-right: 0.9375rem; padding-left: 0.9375rem; } }
-
-@media print, screen and (min-width: 40em) { .welcome-video > .row > div:last-child:last-child:not(:first-child) { float: right; } }
-
-.welcome-video .video-img { position: relative; }
-
-.welcome-video .video-img div { position: absolute; top: 0; right: 0; bottom: 0; left: 0; background-size: cover; background-position: 50% 50%; }
-
-.customer-support { padding: 0px 0px 60px; }
-
-@media print, screen and (min-width: 40em) { .customer-support { padding: 120px 0px 160px; border-top: dotted 1px #000000; } }
-
-.customer-support .columns:first-child > a { border-top: 1px solid #cacaca; }
-
-@media print, screen and (min-width: 40em) { .customer-support .columns:first-child > a { border-top: none; } }
-
-.customer-support .columns > a { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-align: baseline; -ms-flex-align: baseline; align-items: baseline; padding: 20px 0 20px 0; border-bottom: 1px solid #cacaca; }
-
-.customer-support .columns > a .support-image { position: relative; }
-
-@media print, screen and (min-width: 40em) { .customer-support .columns > a .support-image { width: 180px; margin: 0 auto; height: 180px; border-radius: 50%; background-color: #e6e6e6; }
-  .customer-support .columns > a .support-image img { position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); display: block; margin: 0px auto; } }
-
-.customer-support .columns > a .support-image img { margin: 0px 10px 0 0; }
-
-@media print, screen and (min-width: 40em) { .customer-support .columns > a { display: block; border-bottom: 0px solid black; } }
-
-.customer-support .columns .support-link { display: block; clear: both; -ms-flex-preferred-size: 70%; flex-basis: 70%; }
-
-.customer-support .columns .support-link h3 { color: black; line-height: 1; text-transform: uppercase; }
-
-@media print, screen and (min-width: 40em) { .customer-support .columns .support-link h3 { text-align: center; margin-top: 20px; } }
-
-[class*='page-pagination'], .companies-accordion-close { text-align: center; position: relative; margin: 0 0 4em 0; }
-
-[class*='page-pagination']:after, .companies-accordion-close:after { content: ''; border-top: solid 1px #aeaeae; position: absolute; top: 50%; left: 0; right: 0; width: 100%; }
-
-@media print, screen and (min-width: 40em) { [class*='page-pagination'], .companies-accordion-close { margin: 0 0 7em 0; } }
-
-[class*='page-pagination'] div, .companies-accordion-close div { padding: 0 30px; background: #fff; display: inline-block; z-index: 2; position: relative; }
-
-[class*='page-pagination'] a, .companies-accordion-close a { margin: 0; position: relative; }
-
-[class*='page-pagination'] a:after, .companies-accordion-close a:after { content: ''; width: 0; height: 0; border-left: 14px solid transparent; border-right: 14px solid transparent; border-top: 14px solid #0163aa; top: 100%; left: 50%; position: absolute; -webkit-transform: translateX(-50%); transform: translateX(-50%); transition: border-top-color .25s ease-out, color .25s ease-out; }
-
-[class*='page-pagination'] a:hover:after, .companies-accordion-close a:hover:after { border-top-color: #0180dd; }
-
-[class*='page-pagination'].cclose, .companies-accordion-close.cclose { margin: 2em 0 2em 0; }
-
-[class*='page-pagination'].cclose a:after, .companies-accordion-close.cclose a:after { border-top: none; border-bottom: 14px solid #0163aa; top: inherit; bottom: 100%; }
-
-.entry-article { padding-bottom: 70px; }
-
-.entry-image { margin: 0 0 30px; position: relative; display: none; }
-
-@media print, screen and (min-width: 40em) { .entry-image { display: block; } }
-
-.entry-image figcaption { position: absolute; bottom: 0; left: 0; background: #2e2f32; padding: 4px 15px; font-weight: bold; color: #fff; }
-
-.entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4, .entry-content h5, .entry-content h6 { clear: both; }
-
-.entry-related { padding: 60px 0 20px; border-top: dotted 1px #000; border-bottom: solid 1px #aeaeae; margin: 0 0 100px 0; }
-
-@media print, screen and (min-width: 64em) { .entry-related { margin: 0 0 180px 0; } }
-
-.entry-tags h3 { display: inline-block; margin: 0 10px 0 0; }
-
-.entry-tags a { background: #0163aa; color: #fff; display: inline-block; padding: 3px 7px; margin: 0 0 4px; line-height: 1; }
-
-.entry-tags a:hover { background: #0180dd; }
-
-.alternate-rows, .entry-details li, .event-details p { padding: 10px 20px; border-radius: 5px; }
-
-.alternate-rows:nth-child(2n + 1), .entry-details li:nth-child(2n + 1), .event-details p:nth-child(2n + 1) { background: #eaeaea; }
-
-.entry-details { padding: 40px 0; }
-
-.entry-details ul { list-style: none; margin-left: 0; color: #211f1f; }
-
-@media print, screen and (min-width: 40em) { .entry-details ul { width: 65%; } }
-
-.event-details { padding: 40px 0; }
-
-.event-details p { margin: 0; }
-
-.slider-articles { padding: 0 15px 30px 0; position: relative; }
-
-@media print, screen and (min-width: 64em) { .slider-articles { padding: 0 60px 70px 0; } }
-
-.slider-articles .box-1 > div { margin: 0 20px 0 0; }
-
-@media print, screen and (min-width: 40em) { .slider-articles .box-1 > div { margin: 0 30px 0 0; } }
-
-.slider-articles figure { margin: 0; padding-bottom: 53.7307%; }
-
-.slider-articles figure figcaption { padding: 2px 10px; }
-
-.slider-articles .entry-header { padding: 20px 0 0; }
-
-.slider-articles p, .slider-articles h3 { font-size: 1rem; color: inherit; margin: 0; line-height: 1.1; }
-
-.slider-articles .slick-prev { display: none !important; }
-
-.slider-articles .slick-dots { margin: 25px 0 0; text-align: center; }
-
-.slider-articles .slick-dots li { display: inline-block; width: 15px; height: 15px; border-radius: 50%; background-color: black; margin: 0 5px; }
-
-.slider-articles .slick-dots li.slick-active { background-color: #0163aa; }
-
-.slider-articles .slick-next { position: absolute; outline: none; top: 0; right: 0; text-indent: -9999px; padding: 0; height: 118px; width: 20px; }
-
-@media print, screen and (min-width: 64em) { .slider-articles .slick-next { height: 138px; } }
-
-@media print, screen and (min-width: 40em) { .slider-articles .slick-next { width: 30px; } }
-
-.slider-articles .slick-next:after { content: "\f054"; text-indent: 0; font-family: 'FontAwesome'; position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
-
-@media print, screen and (min-width: 40em) { .two-col { -webkit-column-count: 2; column-count: 2; } }
-
-select { box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1); }
-
-.wpcf7-form-control-wrap { display: block; }
-
-.wpcf7-form-control-wrap [type='text'], .wpcf7-form-control-wrap [type='password'], .wpcf7-form-control-wrap [type='date'], .wpcf7-form-control-wrap [type='datetime'], .wpcf7-form-control-wrap [type='datetime-local'], .wpcf7-form-control-wrap [type='month'], .wpcf7-form-control-wrap [type='week'], .wpcf7-form-control-wrap [type='email'], .wpcf7-form-control-wrap [type='number'], .wpcf7-form-control-wrap [type='search'], .wpcf7-form-control-wrap [type='tel'], .wpcf7-form-control-wrap [type='time'], .wpcf7-form-control-wrap [type='url'], .wpcf7-form-control-wrap [type='color'], .wpcf7-form-control-wrap textarea { margin: 0 0 4px; }
-
-.wpcf7-form-control-wrap + label { margin: 0 0 .8rem; }
-
-.form-submit { padding: 30px 0 0; }
-
-span.wpcf7-not-valid-tip { position: absolute; bottom: 0; right: 0; font-size: .8rem; }
+.heading h3 { font-size: 48px; }
 
 .site-header { margin: 45px; margin-bottom: 0; background-color: #0161a9; }
 

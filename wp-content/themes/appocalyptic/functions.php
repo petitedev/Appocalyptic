@@ -163,14 +163,17 @@ function appocalyptic_widgets_init() {
 add_action( 'widgets_init', 'appocalyptic_widgets_init' );
 
 /**
+ * 
  * Enqueue scripts and styles.
  */
 function appocalyptic_scripts() {  
-	wp_enqueue_style( 'appocalyptic-style', get_template_directory_uri() . '/css/app.css' );
-	wp_enqueue_style( 'danut', get_template_directory_uri() . '/css/danut.css' );
+	wp_enqueue_style( 'appocalyptic-style', get_template_directory_uri() . '/css/app.css' , [], null );
+	wp_enqueue_style( 'danut', get_template_directory_uri() . '/css/danut.css'  , [], null );
 	wp_enqueue_style( 'alex', get_template_directory_uri() . '/css/alex.css' );
-	wp_enqueue_style( 'johnny', get_template_directory_uri() . '/css/johnny.css' );
+	wp_enqueue_style( 'johnny', get_template_directory_uri() . '/css/johnny.css' , [], null );
 	wp_enqueue_style( 'cristi', get_template_directory_uri() . '/css/cristi.css' );
+ 
+
 
 	wp_enqueue_script( 'appocalyptic-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 

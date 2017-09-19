@@ -14,7 +14,8 @@ var babel = require('gulp-babel');
 
 var glob = require('glob');
 var path = require('path');
-var fs = require('fs');
+var fs = require('fs'),
+		bower = require('gulp-bower');
 
 var spritesmith = require('gulp.spritesmith');
 
@@ -26,10 +27,22 @@ var sassPaths = [
 ];
 
 
+var config = {
+    sassPath: './html/scss',
+    bowerDir: './bower_components'
+}
+
+
 function errorLog(error) {
 	console.error.bind(error);
 	this.emit('end');
 }
+
+
+gulp.task('icons', function() {
+    return gulp.src(config.bowerDir + '/font-awesome/fonts/**.*')
+        .pipe(gulp.dest('./wp-content/themes/appocalyptic/fonts'));
+}); 
 
 gulp.task('default', function () {
 
