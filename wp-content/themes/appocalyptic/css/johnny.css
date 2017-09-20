@@ -1,2 +1,13 @@
+.section { padding: 100px 0; }
+
+.feature-box { background-image: url("../img/ft3.jpg"); background-color: #0161a9; margin-bottom: 25px; }
+
+.feature-box .feature-box-container { margin: 15px 0; background-color: white; }
+
+.feature-box .section-description { padding: 20px; }
+
+.feature-box .icon-heading-container { padding: 10px; }
+
+.feature-box .icon-heading-container .icon-title { font-size: 24px; }
 
 /*# sourceMappingURL=johnny.css.map */
