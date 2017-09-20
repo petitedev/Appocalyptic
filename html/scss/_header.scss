@@ -1,6 +1,96 @@
 .site-header {
+	position: relative;
 	height: calc(100vh - 45px);
     margin: 45px;
     margin-bottom: 0;
-    background-color: #0161a9;
+    background-color: $primary;
+    overflow: hidden;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.5), 0 0 0 15px darken($primary, 4%), 0 0 10px 16px rgba(0, 0, 0, 0.5), 0 0 0 30px darken($primary, 11%), 0 0 10px 31px rgba(0, 0, 0, 0.5), 0 0 0 45px darken($primary, 17%);
+    
+	&:after {
+		content: "";
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		height: 55%;
+		background-image: url(../img/header-bg.png);
+    	background-repeat: no-repeat;
+    	background-size: 200%;
+	    background-position: -390px 10px;
+	    z-index: 0;
+	    opacity: 0.85;
+	    display: block;
+	}
+
+	.site-branding {
+		z-index: 1;
+		
+	    #top-header {
+	    	overflow: hidden;
+	    	
+	    	.site_logo {
+		    	float: left;
+		    	margin-top: 20px;
+		    	margin-left: 40px;
+		    }
+
+		    #site-navigation {
+		    	float: right;
+		    	margin-top: 53px;
+		    	margin-right: 31px;
+		    	
+		    	ul {
+		    		li {
+		    			a {
+		    				font-size: 25px;
+		    				color: #FFF;
+		    				padding: 0.7rem 34px;
+		    			}
+		    		}
+		    	}
+	    	}
+	    }
+
+	    .site-title,
+	    .site-description {
+	    	font-size: 10vh;
+		    text-align: center;
+		    line-height: 1;
+		    margin-bottom: 0;
+		    margin-top: 60px;
+		    letter-spacing: 1.5px;
+		    
+		    a {
+		    	color: #FFF;
+		    }
+	    }
+
+	    .site-description {
+	    	font-size: 4vh;
+	    	margin-top: 35px;
+	    	color: #FFF;
+	    }
+	}
+    
+    #header-phone-slider {
+    	position: absolute;
+    	width: 70vh;
+    	height: 70vh;
+    	margin: 0 auto;
+    	left: 0;
+    	right: 0;
+    	z-index: 2;
+    	
+		.phone-frame {
+	    	width: 100%;
+	    	// height: 100%;
+	    	// background-image: url(../img/samsung.png);
+	    	// background-size: 100%;
+	    	// background-repeat: no-repeat;
+	    	margin: 0 auto;
+	    	max-width: 600px;
+	    	display: block;
+	    }    	
+    }
 }
