@@ -53,6 +53,9 @@
 			endif; ?>
 		</div><!-- .site-branding -->
 
+		<div id="header-phone-slider">
+			<div class="phone-frame"></div>
+		</div>
 		
 	</header><!-- #masthead -->
 
