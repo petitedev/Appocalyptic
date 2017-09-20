@@ -41,7 +41,7 @@ function errorLog(error) {
 
 gulp.task('icons', function() {
     return gulp.src(config.bowerDir + '/font-awesome/fonts/**.*')
-        .pipe(gulp.dest('./wp-content/themes/appocalyptic/fonts'));
+        .pipe(gulp.dest('./wp-content/themes/appocalyptic/font'));
 }); 
 
 gulp.task('default', function () {

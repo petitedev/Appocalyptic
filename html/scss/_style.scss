@@ -1,11 +1,35 @@
 .heading{
-  
   h3{
     font-size:48px;   
+    margin:0;
   }
   span{
+    text-align:center;
+    display:block;
+    position:relative;
     &:after{
-      
+      content:"\f10b";
+      font-size:30px;
+      background-color:white;
+      display:table;
+      margin:0 auto;
+      z-index:2;
+      position:relative;
+      padding:0 5px 0  5px;
+
+    }
+    &:before{
+      content:'';
+      display:block;
+      position:absolute;
+      left:0;
+      top:22px;
+      right:0;
+      height:2px;
+      max-width:100px;
+      margin:0 auto;
+      width:100%;
+      background:black;
     }
   }
 }  
