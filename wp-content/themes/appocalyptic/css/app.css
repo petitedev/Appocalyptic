@@ -2390,13 +2390,41 @@ html, body, .page-container { height: 100%; }
 
 .heading span:before { content: ''; display: block; position: absolute; left: 0; top: 16px; right: 0; height: 2px; max-width: 150px; margin: 0 auto; width: 100%; background: #0163aa; }
 
-.site-header { height: calc(100vh - 45px); margin: 45px; margin-bottom: 0; background-color: #0161a9; }
+/* General Styles for Content
+==========================================*/
+#content { position: relative; z-index: 2; background-color: #FFF; }
+
+.site-header { position: relative; height: calc(100vh - 45px); margin: 45px; margin-bottom: 0; background-color: #0163aa; overflow: hidden; box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.5), 0 0 0 15px #015796, 0 0 10px 16px rgba(0, 0, 0, 0.5), 0 0 0 30px #014372, 0 0 10px 31px rgba(0, 0, 0, 0.5), 0 0 0 45px #003154; }
+
+.site-header:after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 55%; background-image: url(../img/header-bg.png); background-repeat: no-repeat; background-size: 200%; background-position: -390px 10px; z-index: 0; opacity: 0.85; display: block; }
+
+.site-header .site-branding { z-index: 1; }
+
+.site-header .site-branding #top-header { overflow: hidden; }
+
+.site-header .site-branding #top-header .site_logo { float: left; margin-top: 20px; margin-left: 40px; }
+
+.site-header .site-branding #top-header #site-navigation { float: right; margin-top: 53px; margin-right: 31px; }
+
+.site-header .site-branding #top-header #site-navigation ul li a { font-size: 25px; color: #FFF; padding: 0.7rem 34px; }
+
+.site-header .site-branding .site-title, .site-header .site-branding .site-description { font-size: 10vh; text-align: center; line-height: 1; margin-bottom: 0; margin-top: 60px; letter-spacing: 1.5px; }
+
+.site-header .site-branding .site-title a, .site-header .site-branding .site-description a { color: #FFF; }
+
+.site-header .site-branding .site-description { font-size: 4vh; margin-top: 35px; color: #FFF; }
+
+.site-header #header-phone-slider { position: absolute; width: 70vh; height: 70vh; margin: 0 auto; left: 0; right: 0; z-index: 2; }
+
+.site-header #header-phone-slider .phone-frame { width: 100%; margin: 0 auto; max-width: 600px; display: block; }
 
 .site-footer .site-copyright { background-color: #0163aa; background-image: url("../img/footer-background.png"); background-repeat: no-repeat; background-size: cover; background-position: center; min-height: 120px; }
 
 .site-footer .site-copyright.fullWidth { width: 100%; margin-left: auto; margin-right: auto; max-width: initial; }
 
 .site-footer .site-copyright a { color: white; font-family: 'Montserraat Regular', sans-serif; font-size: 24px; display: block; margin: 0 auto; }
+
+.site-footer .site-copyright a p { margin-bottom: 0; }
 
 .slick-slider { position: relative; display: block; box-sizing: border-box; -webkit-touch-callout: none; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; -ms-touch-action: pan-y; touch-action: pan-y; -webkit-tap-highlight-color: transparent; }
 

@@ -26,18 +26,20 @@
 
 	<header id="masthead" class="site-header">
 		<div class="site-branding">
-			<div class="site_logo">
-				<?php the_custom_logo(); ?>
-			</div>
+			<div id="top-header">
+				<div class="site_logo">
+					<?php the_custom_logo(); ?>
+				</div>
 
-			<nav id="site-navigation" class="main-navigation">
-				<?php
-					wp_nav_menu( array(
-						'theme_location' => 'menu-1',
-						'menu_id'        => 'primary-menu',
-					) );
-				?>
-			</nav><!-- #site-navigation -->
+				<nav id="site-navigation" class="main-navigation">
+					<?php
+						wp_nav_menu( array(
+							'theme_location' => 'menu-1',
+							'menu_id'        => 'primary-menu',
+						) );
+					?>
+				</nav><!-- #site-navigation -->
+			</div>
 
 			<?php if ( is_front_page() && is_home() ) : ?>
 				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
@@ -54,7 +56,26 @@
 		</div><!-- .site-branding -->
 
 		<div id="header-phone-slider">
-			<div class="phone-frame"></div>
+			<div class="header-image-slider">
+				<?php if( get_sub_field('header_slide_image') ): ?>
+					<img src="<?php echo the_sub_field('header_slide_image'); ?>" />
+				<?php endif; ?>
+
+
+				<?php
+					// check if the repeater field has rows of data
+					if( have_rows('header_images') ):
+					 	// loop through the rows of data
+					    while ( have_rows('header_images') ) : the_row(); ?>
+					        <div style="background-image: url('<?php the_sub_field('header_slide_image'); ?>');"></div>
+					    <?php endwhile;
+					else :
+					    // no rows found
+					endif;
+				?>
+			</div>
+
+			<img class="phone-frame" src="<?php echo get_template_directory_uri(); ?>/img/samsung.png" />
 		</div>
 		
 	</header><!-- #masthead -->
