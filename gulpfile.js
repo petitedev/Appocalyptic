@@ -147,9 +147,11 @@ gulp.task('scss', function () {
 
 gulp.task('scripts', function () {
 	return gulp.src([
+		'./bower_components/jquery/dist/jquery.min.js',
 		'./bower_components/infinite-scroll/dist/infinite-scroll.pkgd.js',
 		'./bower_components/matchHeight/dist/jquery.matchHeight.js',
 		'./bower_components/magnific-popup/dist/jquery.magnific-popup.js',
+		'./bower_components/slick-carousel/slick/slick.min.js',
 
 
 		// './bower_components/jquery/dist/jquery.js',
@@ -161,10 +163,10 @@ gulp.task('scripts', function () {
 		'./bower_components/foundation-sites/js/foundation.util.nest.js',
 		'./bower_components/foundation-sites/js/foundation.util.box.js',
 		'./bower_components/foundation-sites/js/foundation.util.motion.js',
+		'./bower_components/foundation-sites/js/foundation.util.motion.js',
 		// './bower_components/foundation-sites/js/foundation.reveal.js',
 		// './bower_components/foundation-sites/js/foundation.offcanvas.js',
 		// './bower_components/foundation-sites/js/foundation.dropdown.js',
-		'./bower_components/foundation-sites/js/foundation.accordion.js',
 
 
 		// './bower_components/jQuery.dotdotdot/src/jquery.dotdotdot.min.js',

@@ -25,6 +25,8 @@
 	<!-- <a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'onepagetemplate' ); ?></a> -->
 
 	<header id="masthead" class="site-header">
+	<div class="left-arrow">Lorem ipsum.</div>
+	<div class="right-arrow">Lorem ipsum.</div>
 		<div class="site-branding">
 			<div id="top-header">
 				<div class="site_logo">
@@ -56,18 +58,11 @@
 		</div><!-- .site-branding -->
 
 		<div id="header-phone-slider">
-			<div class="header-image-slider">
-				<?php if( get_sub_field('header_slide_image') ): ?>
-					<img src="<?php echo the_sub_field('header_slide_image'); ?>" />
-				<?php endif; ?>
-
-
+			<div class="header-images-slider">
 				<?php
-					// check if the repeater field has rows of data
 					if( have_rows('header_images') ):
-					 	// loop through the rows of data
 					    while ( have_rows('header_images') ) : the_row(); ?>
-					        <div style="background-image: url('<?php the_sub_field('header_slide_image'); ?>');"></div>
+					        <div class="ph_slide" style="background-image: url('<?php the_sub_field('header_slide_image'); ?>');"></div>
 					    <?php endwhile;
 					else :
 					    // no rows found

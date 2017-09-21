@@ -75,22 +75,108 @@
     
     #header-phone-slider {
     	position: absolute;
-    	width: 70vh;
+    	width: 100%;
     	height: 70vh;
     	margin: 0 auto;
     	left: 0;
     	right: 0;
     	z-index: 2;
     	
+    	.header-images-slider {
+    		position: absolute;
+		    // width: 1050px;
+		    height: 100%;
+		    z-index: 1;
+		   	margin: 0 auto;
+		   	left: 0;
+		   	right: 0;
+		    margin-top: 99px;
+		    
+		    .slick-list {
+		    	width: 1150px;
+		    	margin: 0 auto;
+		    	
+		    	// &:before,
+		    	// &:after {
+		    	// 	content: "";
+		    	// 	position: absolute;
+		    	// 	width: 370px;
+		    	// 	height: 100%;
+		    	// 	background: rgba(255, 255, 255, 0.5);
+		    	// 	left: 0;
+		    	// 	top: 0;
+		  			// display: block;
+    			// border-radius: 40px 40px 0 0;
+    			// z-index: 2;
+		    	// }
+
+		    	// &:after {
+		    	// 	right: 0;
+		    	// 	left: auto;
+		    	// }
+		    }
+		    
+		    .slick-arrow {
+		    	// display: none !important;
+		    	&.slick-next{
+		    		position: absolute;
+		    		right: 0;
+		    		top: 0;
+		    	}
+		    }
+		    
+		    .ph_slide {
+		    	position: relative;
+		    	// width: 336px !important;
+		    	height: 550px;
+		    	background-repeat: no-repeat;
+		    	background-size: 100%;
+    			// border-radius: 40px;
+    			border-radius: 40px 40px 0 0;
+    			opacity: 1;
+    			
+    			-webkit-transition: all 0.3s ease-in-out;
+    			   -moz-transition: all 0.3s ease-in-out;
+    			    -ms-transition: all 0.3s ease-in-out;
+    			     -o-transition: all 0.3s ease-in-out;
+    			        transition: all 0.3s ease-in-out;
+    			
+    			&:not(.slick-current) {
+    				opacity: 0.5;
+    				
+    				&.left-current {
+    					// position: relative;
+    					right: -50px;
+    					left:auto;
+    					// margin-right: -50px;
+    				}
+
+    				&.right-current {
+    					// position: relative;
+    					left: -50px;
+    					right:inherit;
+    					// margin-left: -50px;
+    					z-index: -1;
+    				}
+    			}
+
+
+		    }
+    	}
+    	
 		.phone-frame {
+			position: relative;
 	    	width: 100%;
 	    	// height: 100%;
 	    	// background-image: url(../img/samsung.png);
 	    	// background-size: 100%;
 	    	// background-repeat: no-repeat;
-	    	margin: 0 auto;
 	    	max-width: 600px;
+	    	margin: 0 auto;
 	    	display: block;
+	    	z-index: 2;
+	    	
+	    	
 	    }    	
     }
 }
