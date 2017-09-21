@@ -18,11 +18,14 @@ get_header();
 ?>
 
 <?php 
-
+ 
 get_template_part( '/template-parts/features' );
  ?>
+ 
+ <?php 
 
-
+ get_template_part( '/template-parts/section_download' );
+  ?>
 
 <?php 
 get_footer();  

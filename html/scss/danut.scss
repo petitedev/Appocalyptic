@@ -1,0 +1,33 @@
+.section-download {
+  background-image: url('../img/background-download.png');
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position: center 300px;
+	.heading{
+		span{
+			&:after{
+				content:"\f0ed";
+			} 
+		}
+	}
+	.content-wrapper{
+		.download-box{
+			&:first-child {
+				.image-download{
+					position:relative;
+					&:after{
+						content:"";
+						position:absolute;
+						display:block;
+						top:0;
+						left:0;
+						right:0;
+						z-index:5;
+						background: url('../img/apple-layout.png') no-repeat center center;
+						background-size: contain;
+					}
+				}
+			}
+		}
+	}
+}
