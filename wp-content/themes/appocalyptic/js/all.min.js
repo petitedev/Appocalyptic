@@ -6601,6 +6601,7 @@
     eventsListener();
     resizeListener();
     scrollListener();
+    mutateListener();
     closemeListener();
   }
 
@@ -6677,6 +6678,15 @@
 
           $nodes.attr('data-events', "scroll");
         }, debounce || 10);
+      });
+    }
+  }
+
+  function mutateListener(debounce) {
+    let $nodes = $('[data-mutate]');
+    if ($nodes.length && MutationObserver) {
+      $nodes.each(function () {
+        $(this).triggerHandler('mutateme.zf.trigger');
       });
     }
   }
@@ -7035,6 +7045,161 @@
   Foundation.Motion = Motion;
 }(jQuery);
 
+<<<<<<< HEAD
+=======
+'use strict';
+
+!function ($) {
+
+  class Accordion {
+    constructor(element, options) {
+      this.$element = element;
+      this.options = $.extend({}, Accordion.defaults, this.$element.data(), options);
+
+      this._init();
+
+      Foundation.registerPlugin(this, 'Accordion');
+      Foundation.Keyboard.register('Accordion', {
+        'ENTER': 'toggle',
+        'SPACE': 'toggle',
+        'ARROW_DOWN': 'next',
+        'ARROW_UP': 'previous'
+      });
+    }
+
+    _init() {
+      this.$element.attr('role', 'tablist');
+      this.$tabs = this.$element.children('[data-accordion-item]');
+
+      this.$tabs.each(function (idx, el) {
+        var $el = $(el),
+            $content = $el.children('[data-tab-content]'),
+            id = $content[0].id || Foundation.GetYoDigits(6, 'accordion'),
+            linkId = el.id || `${id}-label`;
+
+        $el.find('a:first').attr({
+          'aria-controls': id,
+          'role': 'tab',
+          'id': linkId,
+          'aria-expanded': false,
+          'aria-selected': false
+        });
+
+        $content.attr({ 'role': 'tabpanel', 'aria-labelledby': linkId, 'aria-hidden': true, 'id': id });
+      });
+      var $initActive = this.$element.find('.is-active').children('[data-tab-content]');
+      if ($initActive.length) {
+        this.down($initActive, true);
+      }
+      this._events();
+    }
+
+    _events() {
+      var _this = this;
+
+      this.$tabs.each(function () {
+        var $elem = $(this);
+        var $tabContent = $elem.children('[data-tab-content]');
+        if ($tabContent.length) {
+          $elem.children('a').off('click.zf.accordion keydown.zf.accordion').on('click.zf.accordion', function (e) {
+            e.preventDefault();
+            _this.toggle($tabContent);
+          }).on('keydown.zf.accordion', function (e) {
+            Foundation.Keyboard.handleKey(e, 'Accordion', {
+              toggle: function () {
+                _this.toggle($tabContent);
+              },
+              next: function () {
+                var $a = $elem.next().find('a').focus();
+                if (!_this.options.multiExpand) {
+                  $a.trigger('click.zf.accordion');
+                }
+              },
+              previous: function () {
+                var $a = $elem.prev().find('a').focus();
+                if (!_this.options.multiExpand) {
+                  $a.trigger('click.zf.accordion');
+                }
+              },
+              handled: function () {
+                e.preventDefault();
+                e.stopPropagation();
+              }
+            });
+          });
+        }
+      });
+    }
+
+    toggle($target) {
+      if ($target.parent().hasClass('is-active')) {
+        this.up($target);
+      } else {
+        this.down($target);
+      }
+    }
+
+    down($target, firstTime) {
+      $target.attr('aria-hidden', false).parent('[data-tab-content]').addBack().parent().addClass('is-active');
+
+      if (!this.options.multiExpand && !firstTime) {
+        var $currentActive = this.$element.children('.is-active').children('[data-tab-content]');
+        if ($currentActive.length) {
+          this.up($currentActive.not($target));
+        }
+      }
+
+      $target.slideDown(this.options.slideSpeed, () => {
+        this.$element.trigger('down.zf.accordion', [$target]);
+      });
+
+      $(`#${$target.attr('aria-labelledby')}`).attr({
+        'aria-expanded': true,
+        'aria-selected': true
+      });
+    }
+
+    up($target) {
+      var $aunts = $target.parent().siblings(),
+          _this = this;
+
+      if (!this.options.allowAllClosed && !$aunts.hasClass('is-active') || !$target.parent().hasClass('is-active')) {
+        return;
+      }
+
+      $target.slideUp(_this.options.slideSpeed, function () {
+        _this.$element.trigger('up.zf.accordion', [$target]);
+      });
+
+
+      $target.attr('aria-hidden', true).parent().removeClass('is-active');
+
+      $(`#${$target.attr('aria-labelledby')}`).attr({
+        'aria-expanded': false,
+        'aria-selected': false
+      });
+    }
+
+    destroy() {
+      this.$element.find('[data-tab-content]').stop(true).slideUp(0).css('display', '');
+      this.$element.find('a').off('.zf.accordion');
+
+      Foundation.unregisterPlugin(this);
+    }
+  }
+
+  Accordion.defaults = {
+    slideSpeed: 250,
+
+    multiExpand: false,
+
+    allowAllClosed: false
+  };
+
+  Foundation.plugin(Accordion, 'Accordion');
+}(jQuery);
+
+>>>>>>> 9ccd5ada539d29333fa2e4bf0a0bbc7f40a07918
 /**
  * @license
  * Copyright 2010 Google Inc. All Rights Reserved.
