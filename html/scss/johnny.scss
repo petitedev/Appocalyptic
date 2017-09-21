@@ -1,26 +1,76 @@
 body {}
 
 $primary: #0161a9;
+// Mixins
+@mixin med($break : $bp-micro, $how : 'down'){
+    @if $how == 'down' {
+       @media screen and (max-width: $break) {
+          @content;       
+       }
+    } @else {
+       @media screen and (min-width: $break) {
+          @content;            
+       }      
+    }
+}
+
+
 
 .section{
-  padding:100px 0; 
+  padding:100px 15px; 
 }
 
 .feature-box{
-  background-image:url('../img/ft3.jpg');;
+
   background-color:$primary; 
-  margin-bottom:25px;
+  margin-bottom:15px;
+  display: flex;
+  background-clip:content-box;
+  padding-left:0;
+  background-size: cover;
+  &:last-child:nth-child(2n),
+  &:nth-child(3n)
+  {
+    padding-right:0;
+    @include med(1200px){
+      padding-right:15px;
+    }
+  }
+
+
   .feature-box-container{
-   margin:15px 0;  
+   margin:15px 15px;  
    background-color:white;
   }
   .section-description{
-    padding:20px;      
+    padding:20px;     
+    p{
+      margin:0 0 10px;
+    } 
   }
-  .icon-heading-container{
-    padding:10px;
-    .icon-title{
-      font-size:24px;
+  .icon-heading-container{ 
+    padding: 20px 20px 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap; 
+ 
+    .icon-img{  
+      max-width: 80px;
+      margin:0 auto;
+    }
+    .icon-heading{
+       display: inline-block;
+        padding: 15px 0 0 20px;
+
+         @include med(640px){
+          padding: 15px 0 0 0px;
+        }
+      
+        text-align: center;
+    
+        flex-basis: 100%;
+
     }
   }
 }

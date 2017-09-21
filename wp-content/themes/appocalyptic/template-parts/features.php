@@ -18,23 +18,23 @@
  				$icon = get_sub_field('feature_icon');
  				$feature_description = get_sub_field('feature_description');
  				$feature_title = get_sub_field('feature_title');
+ 				$feature_background = get_sub_field('feature_background');
 
  				?>
 
  				<!-- <li class="slide"> -->
 
-		 		<div class="feature-box columns medium-4">
+		 		<div style="background-image: url(<?php  echo  $feature_background;  ?>)" class="feature-box columns medium-6 small-12 large-4">
 		 		    <div class="feature-box-container">
 		              <div class="icon-heading-container">
-		                <div class="icon-heading">
-
-		                </div>
-		                <div class="icon-title"> 
 		                  <?php 
 		                    $iconKey = explode(':', trim($icon));
-		                  	echo '<img src="./img/icons/'. $iconKey[0] .'.svg">';
-		                  
-		                  ?>
+		                  	echo '<img class="icon-img" src="' . get_template_directory_uri() . '/img/icons/'. $iconKey[0] .'">';
+				               ?>
+		                <div class="icon-heading">
+											<?php 
+												echo "<h4>". $feature_title. "</h4>";
+											 ?>
 		                </div>
 		              </div>
 		              <div class="section-description">
@@ -44,14 +44,6 @@
 		              </div>
 		  			</div>
 		 		</div>
-
- 					<?php if( $link ): ?>
- 						<a href="<?php echo $link; ?>">
- 					<?php endif; ?>
-
- 						<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>" />
-
- 				<!-- </li> -->
 
  			<?php endwhile; ?>
 

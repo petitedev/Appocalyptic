@@ -1,0 +1,62 @@
+ Volume in drive C has no label.
+ Volume Serial Number is 6689-7F00
+
+ Directory of C:\Users\JohnnyDev\Desktop\Appocalyptic\wp-content\themes\appocalyptic\img\svg
+
+21.09.2017  14:55    <DIR>          .
+21.09.2017  14:55    <DIR>          ..
+20.09.2017  15:55             3.508 003-training-3.svg
+20.09.2017  15:55             2.575 004-training-2.svg
+20.09.2017  15:55             2.039 005-presentation-1.svg
+20.09.2017  15:55             2.568 006-school.svg
+20.09.2017  15:55             1.675 007-brain.svg
+20.09.2017  15:55             2.972 008-rank.svg
+20.09.2017  15:55             3.287 009-learning.svg
+20.09.2017  15:55             2.540 010-settings.svg
+20.09.2017  15:55             2.452 011-diploma.svg
+20.09.2017  15:55             4.362 012-idea-1.svg
+20.09.2017  15:55             2.388 013-target.svg
+20.09.2017  15:55             2.035 014-weightlifting.svg
+20.09.2017  15:55             2.568 015-analytics.svg
+20.09.2017  15:55             2.516 016-studying.svg
+20.09.2017  15:55             2.851 017-coach.svg
+20.09.2017  15:55             2.676 018-creation.svg
+20.09.2017  15:55             4.063 019-decision-making.svg
+20.09.2017  15:55             2.621 020-stationary-bicycle.svg
+20.09.2017  15:55             2.536 021-medal.svg
+20.09.2017  15:55             6.950 022-thinking-1.svg
+20.09.2017  15:55             2.526 023-elearning.svg
+20.09.2017  15:55             2.253 024-training-1.svg
+20.09.2017  15:55             2.081 025-book.svg
+20.09.2017  15:55             3.157 026-stopclock.svg
+20.09.2017  15:55             2.923 027-training.svg
+20.09.2017  15:55             4.886 028-thinking.svg
+20.09.2017  15:55             4.002 029-job-search.svg
+20.09.2017  15:55             2.879 030-deal.svg
+20.09.2017  15:55             3.201 031-mortarboard.svg
+20.09.2017  15:55             2.707 032-idea.svg
+20.09.2017  15:55             2.620 033-presentation.svg
+20.09.2017  15:55             2.192 034-goal.svg
+20.09.2017  15:55             4.177 035-dumbbell.svg
+20.09.2017  15:55             1.457 036-motivation.svg
+20.09.2017  15:55             2.458 037-skills.svg
+20.09.2017  15:55             2.456 038-asking.svg
+20.09.2017  15:55             1.908 039-conversation.svg
+20.09.2017  15:55             1.651 040-megaphone.svg
+20.09.2017  15:55             2.631 041-productivity.svg
+20.09.2017  15:55             1.967 042-teamwork-1.svg
+20.09.2017  15:55             2.996 043-podium.svg
+20.09.2017  15:55             2.518 044-teamwork.svg
+20.09.2017  15:55             1.374 045-puzzle.svg
+20.09.2017  15:55             2.134 046-class.svg
+20.09.2017  15:55             2.107 047-success.svg
+20.09.2017  15:55             3.178 048-test.svg
+20.09.2017  15:55             2.114 049-home.svg
+20.09.2017  15:55             1.114 050-placeholder.svg
+20.09.2017  15:55             2.025 051-user.svg
+21.09.2017  14:51             3.143 names.txt
+20.09.2017  15:55             3.793 No files replaced
+21.09.2017  14:55                 0 nume.txt
+21.09.2017  10:52            54.409 svg.rar
+              53 File(s)        194.219 bytes
+               2 Dir(s)   3.503.083.520 bytes free
