@@ -25,8 +25,6 @@
 	<!-- <a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'onepagetemplate' ); ?></a> -->
 
 	<header id="masthead" class="site-header">
-	<div class="left-arrow">Lorem ipsum.</div>
-	<div class="right-arrow">Lorem ipsum.</div>
 		<div class="site-branding">
 			<div id="top-header">
 				<div class="site_logo">

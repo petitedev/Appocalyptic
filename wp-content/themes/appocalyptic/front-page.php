@@ -15,19 +15,18 @@
 
 <?php 
 get_header(); 
-?>
-
-<?php 
  
 get_template_part( '/template-parts/features' );
- ?>
+
+get_template_part( '/template-parts/video-image-slider' );
+
+get_template_part( '/template-parts/reviews' );
+
+get_template_part( '/template-parts/section_download' );
+
+get_template_part( '/template-parts/contact' );
  
- <?php 
 
- get_template_part( '/template-parts/section_download' );
-  ?>
-
-<?php 
 get_footer();  
  ?> 
 
