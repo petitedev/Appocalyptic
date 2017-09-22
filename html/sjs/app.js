@@ -3,6 +3,11 @@
 $(document).foundation();
 
 
+/* Variables 
+------------------------------------------------------------------------------------------------------------------------*/
+var viewHeight;
+
+
 // document ready method
 $(function ()
 {
@@ -24,102 +29,108 @@ $(function ()
 
 
 
+
+
+
+	/*--------------------------------------------------------------------------------------------------------------------------
+	Header Slider
+	----------------------------------------------------------------------------------------------------------------------------*/
 	var slider = $('.header-images-slider').slick({
-  		autoplay: false,
-  		autoplaySpeed: 2000,
-		infinite: true,
-		slidesToShow: 3,
-		slidesToScroll: 1,
-		centerMode: true,
-  		centerPadding: '0px'
-	}).on('init', function(event, slick){
-		var cSlide = $('.header-images-slider').slick('slickCurrentSlide');
-
-		// $(slick.$slides[cSlide]).removeClass('left-current right-current');		
-		// $(slick.$slides[cSlide]).prevAll().nextAll().removeClass('left-current right-current');		
-
-		// $(slick.$slides[cSlide]).prev().addClass('left-current');
-		// $(slick.$slides[cSlide]).next().addClass('right-current');
-
-		$(slick.$slides[cSlide]).prev().css({
-			'right': '-50px' 
-		});
-		$(slick.$slides[cSlide]).next().css({
-			'left' : '-50px',
-		});
-	});
-
-	slider.slick('unslick');
-
-	slider.slick({
-  		autoplay: false,
-  		autoplaySpeed: 2000,
+  		autoplay: true,
+  		autoplaySpeed: 3500,
+  		// speed: 400,
 		infinite: true,
 		slidesToShow: 3,
 		slidesToScroll: 1,
 		centerMode: true,
   		centerPadding: '0px',
-  		appendArows: $('header'), 
-  		leftArrow: $('.left-arrow'),
-  		rightArrow: $('.right-arrow')  
-	});  
+  		draggable: false
+	}).on('init', function(event, slick){
+		var cSlide = $('.header-images-slider').slick('slickCurrentSlide');
 
+		$(slick.$slides[cSlide]).removeClass('left-current right-current');		
+		$(slick.$slides[cSlide]).prevAll().removeClass('left-current right-current');
+		$(slick.$slides[cSlide]).nextAll().removeClass('left-current right-current');		
+
+		$(slick.$slides[cSlide]).prev().addClass('left-current');
+		$(slick.$slides[cSlide]).next().addClass('right-current');
+	});
+
+	slider.slick('unslick');
+
+	slider.slick({
+  		autoplay: true,
+  		autoplaySpeed: 3500,
+  		// speed: 400,
+		infinite: true,
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		centerMode: true,
+  		centerPadding: '0px',
+  		draggable: false
+	});
 
 	slider.on('init', function(event, slick){
 		var cSlide = $('.header-images-slider').slick('slickCurrentSlide');
 
-		$(slick.$slides[cSlide]).prev().css({
-			'right': '-50px' 
-		}); 
-		$(slick.$slides[cSlide]).next().css({
-			'left' : '-50px',
-		});
+		$(slick.$slides[cSlide]).removeClass('left-current right-current');		
+		$(slick.$slides[cSlide]).prevAll().removeClass('left-current right-current');
+		$(slick.$slides[cSlide]).nextAll().removeClass('left-current right-current');		
+
+		$(slick.$slides[cSlide]).prev().addClass('left-current');
+		$(slick.$slides[cSlide]).next().addClass('right-current');
 	});
 
-
-
-	// var currentSlide = $('.header-images-slider').slick('slickCurrentSlide');
-	// console.log(currentSlide)
-
 	slider.on('beforeChange', function(event, slick, currentSlide, nextSlide) {
-
-		// $(slick.$slides[currentSlide])
-		
-		// .nextAll().css({
-		// 	'left' : ''
-		// 	'right' : ''
-		// }).end()
-		// .prevAll().css({
-		// 	'left': '' 
-		// 	'right': '' 
-		// });
-
-
-
-		$(slick.$slides[currentSlide]).prevAll().css({
-			'left': '',
-			'right': '0' 
-		});
-
-		$(slick.$slides[currentSlide]).nextAll().css({
-			'left' : '0',
-			'right' : ''
-		});
+		$(slick.$slides[currentSlide]).removeClass('left-current right-current');		
+		$(slick.$slides[currentSlide]).prevAll().removeClass('left-current right-current');
+		$(slick.$slides[currentSlide]).nextAll().removeClass('left-current right-current');
 	});
 
 	slider.on('afterChange', function(event, slick, currentSlide) {
-		$(slick.$slides[currentSlide]).prev().css({
-			'right': '-50px',
-			'left' : ''
-		});
-
-		$(slick.$slides[currentSlide]).next().css({
-			'left' : '-50px',
-			'right' : ''
-		});
-		
+		$(slick.$slides[currentSlide]).prev().addClass('left-current');
+		$(slick.$slides[currentSlide]).next().addClass('right-current');
 	});
-
+	/*----------------------------------------------------------------------------------------------------------------------------
+	End Header Slider
+	------------------------------------------------------------------------------------------------------------------------------*/
 
 });
 
+
+$(window).on('load resize', function() {
+	viewHeight = $(window).height();
+	console.log(viewHeight);
+
+	header();
+});
+
+
+$(document).on('scroll', function() {
+	header();
+});
+
+
+/*--------------------------------------------------------------------------------------------------------------------------
+Sticky Header
+----------------------------------------------------------------------------------------------------------------------------*/
+function header() {
+	var sc = $(document).scrollTop();
+
+	if (sc >= 45) {
+		$('header').addClass('sticky-header');
+	}
+	else {
+		$('header').removeClass('sticky-header');
+	}
+
+	if (sc >= viewHeight) {
+		$('header').addClass('full');
+	}
+	else {
+		$('header').removeClass('full');
+	}
+}
+/*----------------------------------------------------------------------------------------------------------------------------
+End Sticky Header
+------------------------------------------------------------------------------------------------------------------------------*/

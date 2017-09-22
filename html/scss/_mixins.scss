@@ -67,3 +67,9 @@
     @content;
   }
 }
+
+
+
+@mixin tr($seconds) {
+  transition: all $seconds ease-in-out;
+}
