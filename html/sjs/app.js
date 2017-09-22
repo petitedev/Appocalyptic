@@ -58,7 +58,7 @@ $(function ()
 		slidesToShow: 3,
 		slidesToScroll: 1,
 		centerMode: true,
-  		centerPadding: '0px'
+  		centerPadding: '0px',
   		appendArows: $('header'), 
   		leftArrow: $('.left-arrow'),
   		rightArrow: $('.right-arrow')  
@@ -102,7 +102,7 @@ $(function ()
 		});
 
 		$(slick.$slides[currentSlide]).nextAll().css({
-			'left' : '0'
+			'left' : '0',
 			'right' : ''
 		});
 	});
@@ -123,5 +123,3 @@ $(function ()
 
 });
 
-
-alert('dddd'); 

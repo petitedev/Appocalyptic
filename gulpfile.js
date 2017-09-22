@@ -90,6 +90,7 @@ gulp.task('watch', function () {
 
 	gulp.watch('./html/scss/**/*.scss', ['scss'/*, browserSync.reload*/]);
 	gulp.watch('./html/sjs/**/*.js', ['scripts'/*, browserSync.reload*/]);
+	gulp.watch('./html/sjs/*.js', ['scripts'/*, browserSync.reload*/]);
 	// gulp.watch('./**/*.php', [browserSync.reload]);
 
 	gulp.watch('./html/img/**/*', ['move-image'/*, browserSync.reload*/]);
