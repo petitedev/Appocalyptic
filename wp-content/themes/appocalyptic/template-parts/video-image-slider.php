@@ -5,5 +5,6 @@
 		<span class="fa-icon fa-phone"></span>
 	</div>	
 	<div class="row">
+		<img class="phone-frame" src="<?php echo get_template_directory_uri(); ?>/img/samsung.png" />
 	</div>
 </div>	
